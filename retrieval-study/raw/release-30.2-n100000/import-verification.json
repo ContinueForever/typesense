@@ -1,0 +1,91 @@
+{
+  "imported": 100000,
+  "collection": {
+    "created_at": 1793018604,
+    "curation_sets": [],
+    "default_sorting_field": "uOn",
+    "enable_nested_fields": false,
+    "fields": [
+      {
+        "facet": true,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "orgId",
+        "optional": false,
+        "sort": false,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "truncate_len": 100,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "item_code",
+        "optional": false,
+        "sort": false,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "truncate_len": 100,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "title",
+        "optional": false,
+        "sort": false,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "truncate_len": 100,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "arc",
+        "optional": false,
+        "sort": true,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "truncate_len": 100,
+        "type": "bool"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "uOn",
+        "optional": false,
+        "sort": true,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "truncate_len": 100,
+        "type": "int64"
+      }
+    ],
+    "name": "retrieval_study_b16410ff1876",
+    "num_documents": 100000,
+    "symbols_to_index": [],
+    "synonym_sets": [],
+    "token_separators": []
+  },
+  "export_digest": {
+    "count": 100000,
+    "sha256_sum_mod_2_256": "916962255c212c1155ca4cb00419b6cba6613c8872bdfd2757762d7613f1c0f6"
+  },
+  "verified": true
+}

@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-10-26",
+  "issue": {
+    "url": "https://github.com/typesense/typesense/issues/3130",
+    "title": "Prefix search on a high-cardinality string field takes seconds on 16M docs; filter_by and max_candidates don't bound it (v30.2)",
+    "issue_number": 3130,
+    "state": "open",
+    "user": {
+      "login": "agraj-grexa",
+      "name": "agraj-grexa",
+      "email": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/201560724?v=4",
+      "id": 201560724
+    },
+    "assignees": null,
+    "labels": [
+      {
+        "name": "question",
+        "color": "cc317c"
+      }
+    ],
+    "milestone": null,
+    "state_reason": null,
+    "comments": 0,
+    "created_at": "2026-10-22T05:59:49Z",
+    "updated_at": "2026-10-22T05:59:49Z",
+    "closed_at": null,
+    "display_url": "https://github.com/typesense/typesense/issues/3130",
+    "display_title": "Prefix search on a high-cardinality string field takes seconds on 16M docs; filter_by and max_candidates don't bound it (v30.2)"
+  },
+  "comments": [],
+  "search_limitation": "Connector search returned issues despite is:pr; use REST search to audit PR overlap.",
+  "publication_note": "Downloaded prose omitted; original audit metadata and source links retained.",
+  "original_payload_sha256": "9188e301661f6b163f6269cdc4a510ad777ab3b6b98dc10b223dfe7ec67205b6"
+}

@@ -1,0 +1,17 @@
+test_cardinality_repetition_and_hot_term_controls (test_study.DatasetTest.test_cardinality_repetition_and_hot_term_controls) ... ok
+test_digest_ignores_export_order_but_detects_changes_and_duplicates (test_study.DatasetTest.test_digest_ignores_export_order_but_detects_changes_and_duplicates) ... ok
+test_generator_is_deterministic_and_will_not_overwrite (test_study.DatasetTest.test_generator_is_deterministic_and_will_not_overwrite) ... ok
+test_invalid_shape_is_rejected_before_creating_directory (test_study.DatasetTest.test_invalid_shape_is_rejected_before_creating_directory) ... ok
+test_target_stays_identical_as_foreign_cardinality_changes (test_study.DatasetTest.test_target_stays_identical_as_foreign_cardinality_changes) ... ok
+test_compare_catches_result_and_query_parameter_changes (test_study.ValidationTest.test_compare_catches_result_and_query_parameter_changes) ... ok
+test_compare_rejects_missing_duplicate_and_incomplete_requests (test_study.ValidationTest.test_compare_rejects_missing_duplicate_and_incomplete_requests) ... ok
+test_normalisation_preserves_order_count_score_and_cutoff (test_study.ValidationTest.test_normalisation_preserves_order_count_score_and_cutoff) ... ok
+test_oracle_does_not_treat_truncated_modes_as_full_enumeration (test_study.ValidationTest.test_oracle_does_not_treat_truncated_modes_as_full_enumeration) ... ok
+test_oracle_filters_sorts_and_paginates (test_study.ValidationTest.test_oracle_filters_sorts_and_paginates) ... ok
+test_oracle_rejects_truncation_and_missing_samples_at_runtime (test_study.ValidationTest.test_oracle_rejects_truncation_and_missing_samples_at_runtime) ... ok
+test_summary_counts_failures_and_refuses_tiny_sample_p99 (test_study.ValidationTest.test_summary_counts_failures_and_refuses_tiny_sample_p99) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.017s
+
+OK

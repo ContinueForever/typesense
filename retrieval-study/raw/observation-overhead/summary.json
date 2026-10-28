@@ -1,0 +1,164 @@
+{
+  "max_score/target/k1": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 25859.929,
+      "observed": 25534.967
+    },
+    "observed_to_baseline": 0.9874337628691866,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/absent/k1": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 24400.9055,
+      "observed": 25375.3115
+    },
+    "observed_to_baseline": 1.039933190184274,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/none/k1": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 8.363,
+      "observed": 8.6115
+    },
+    "observed_to_baseline": 1.0297142173861054,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/target/k4": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 25310.331,
+      "observed": 25555.5345
+    },
+    "observed_to_baseline": 1.0096878819956958,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/absent/k4": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 24512.453500000003,
+      "observed": 24724.825
+    },
+    "observed_to_baseline": 1.0086638206167324,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/none/k4": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 22.694000000000003,
+      "observed": 23.402
+    },
+    "observed_to_baseline": 1.0311976733938486,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/target/k16": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 24814.2995,
+      "observed": 24322.343
+    },
+    "observed_to_baseline": 0.9801744756083081,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/absent/k16": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 24652.722,
+      "observed": 24985.5
+    },
+    "observed_to_baseline": 1.0134986311045084,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "max_score/none/k16": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 75.1105,
+      "observed": 78.8305
+    },
+    "observed_to_baseline": 1.0495270301755413,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/target/k1": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 12776.821,
+      "observed": 13124.844000000001
+    },
+    "observed_to_baseline": 1.0272386221893537,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/absent/k1": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 12886.572,
+      "observed": 12734.1725
+    },
+    "observed_to_baseline": 0.9881737749961743,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/none/k1": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 4.547499999999999,
+      "observed": 4.5295000000000005
+    },
+    "observed_to_baseline": 0.996041781198461,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/target/k4": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 12866.5085,
+      "observed": 13097.7505
+    },
+    "observed_to_baseline": 1.0179723970959176,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/absent/k4": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 12631.873,
+      "observed": 13145.7135
+    },
+    "observed_to_baseline": 1.0406780926312353,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/none/k4": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 7.651,
+      "observed": 7.8555
+    },
+    "observed_to_baseline": 1.0267285322180109,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/target/k16": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 12712.89,
+      "observed": 12571.6
+    },
+    "observed_to_baseline": 0.9888860833374631,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/absent/k16": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 12433.0675,
+      "observed": 12709.526
+    },
+    "observed_to_baseline": 1.0222357435122105,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  },
+  "frequency/none/k16": {
+    "samples_per_variant": 30,
+    "medians_us": {
+      "baseline": 22.2525,
+      "observed": 22.832500000000003
+    },
+    "observed_to_baseline": 1.026064487136277,
+    "limitation": "Small diagnostic sample on a shared host; no P99 or stable regression claim."
+  }
+}

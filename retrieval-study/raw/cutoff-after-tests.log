@@ -1,0 +1,14 @@
+Running main() from /home/hermes/typesense/retrieval-study/builds/test-deps/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = ArtTraversalCutoffTest.*
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from ArtTraversalCutoffTest
+[ RUN      ] ArtTraversalCutoffTest.ChecksDeadlineWhileExpandingInternalNodes
+[       OK ] ArtTraversalCutoffTest.ChecksDeadlineWhileExpandingInternalNodes (1 ms)
+[ RUN      ] ArtTraversalCutoffTest.SubsequentQueryWithNewBudgetStillReturnsCandidates
+[       OK ] ArtTraversalCutoffTest.SubsequentQueryWithNewBudgetStillReturnsCandidates (1 ms)
+[----------] 2 tests from ArtTraversalCutoffTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 2 tests.

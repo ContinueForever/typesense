@@ -1,0 +1,12 @@
+{
+  "query": "repo:typesense/typesense is:pr 3130",
+  "url": "https://api.github.com/search/issues?q=repo%3Atypesense%2Ftypesense+is%3Apr+3130&per_page=30&sort=updated",
+  "response": {
+    "total_count": 0,
+    "incomplete_results": false,
+    "items": [],
+    "search_type": "lexical"
+  },
+  "publication_note": "Downloaded prose omitted; original audit metadata and source links retained.",
+  "original_payload_sha256": "fe4a700aa2e20526e7bd6fcc62096bd58bbaba2f4c2f3eba2cd05c5256265c7f"
+}

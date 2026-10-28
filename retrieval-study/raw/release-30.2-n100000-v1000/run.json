@@ -1,0 +1,152 @@
+{
+  "dataset": "/home/hermes/typesense/retrieval-study/data/n100000-v1000",
+  "dataset_manifest": {
+    "format": 1,
+    "generator": "affine-v1",
+    "config": {
+      "documents": 100000,
+      "target_documents": 8,
+      "target_matches": 1,
+      "other_unique": 99992,
+      "hot_terms": 1000,
+      "seed": 3130
+    },
+    "infix_index": false,
+    "documents_sha256": "c32e003cd4bd1df68df4c9900ff48e35f9289ee1e6a080aab3bd316f0329c14b",
+    "documents_bytes": 13149924,
+    "content_digest": {
+      "count": 100000,
+      "sha256_sum_mod_2_256": "a4e54de700060279150bf6fbc1960462c9aff38a95b4d13903ce5ee74c944a69"
+    },
+    "note": "Synthetic identifiers; target set is constant across foreign cardinalities."
+  },
+  "queries": [
+    {
+      "id": "p918-empty-k1",
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "arc:asc,uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 1,
+        "filter_by": "orgId:=absent"
+      }
+    },
+    {
+      "id": "p918-narrow-k1",
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "arc:asc,uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 1,
+        "filter_by": "orgId:=target"
+      }
+    },
+    {
+      "id": "p918-narrow-k4",
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "arc:asc,uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 4,
+        "filter_by": "orgId:=target"
+      }
+    },
+    {
+      "id": "p918-narrow-k16",
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "arc:asc,uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 16,
+        "filter_by": "orgId:=target"
+      }
+    },
+    {
+      "id": "p918-unfiltered-k1",
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "arc:asc,uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 1
+      }
+    },
+    {
+      "id": "exact-control",
+      "params": {
+        "query_by": "item_code",
+        "prefix": "false",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "arc:asc,uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 4
+      }
+    }
+  ],
+  "warmup": 1,
+  "repeats": 5,
+  "load_model": "serial closed loop; client and server share host; not a capacity measurement"
+}

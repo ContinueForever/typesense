@@ -1,0 +1,1 @@
+/home/hermes/typesense/retrieval-study/bench/art_probe.cpp:64:35: runtime error: store to null pointer of type 'bool'

@@ -1,0 +1,8 @@
+Breakpoint 1 at 0x40efe0: file /home/hermes/typesense/retrieval-study/bench/art_probe.cpp, line 64.
+warning: Could not trace the inferior process.
+warning: ptrace: Operation not permitted
+During startup program exited with code 127.
+Cannot find address of TLS symbol `search_cutoff' without registers
+Cannot find address of TLS symbol `search_cutoff' without registers
+Cannot find address of TLS symbol `search_begin_us' without registers
+No stack.

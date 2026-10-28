@@ -1,0 +1,68 @@
+{
+  "p918-empty-k1": {
+    "attempted": 5,
+    "outcomes": {
+      "success": 5
+    },
+    "completed_samples": 5,
+    "median_ms": 0.738512,
+    "min_ms": 0.634474,
+    "max_ms": 1.674226,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "p918-narrow-k1": {
+    "attempted": 5,
+    "outcomes": {
+      "success": 5
+    },
+    "completed_samples": 5,
+    "median_ms": 3.134752,
+    "min_ms": 2.796091,
+    "max_ms": 6.633619,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "p918-narrow-k4": {
+    "attempted": 5,
+    "outcomes": {
+      "success": 5
+    },
+    "completed_samples": 5,
+    "median_ms": 3.320491,
+    "min_ms": 2.592915,
+    "max_ms": 4.238048,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "p918-narrow-k16": {
+    "attempted": 5,
+    "outcomes": {
+      "success": 5
+    },
+    "completed_samples": 5,
+    "median_ms": 4.882676,
+    "min_ms": 2.79551,
+    "max_ms": 6.637497,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "p918-unfiltered-k1": {
+    "attempted": 5,
+    "outcomes": {
+      "success": 5
+    },
+    "completed_samples": 5,
+    "median_ms": 1.763224,
+    "min_ms": 1.001238,
+    "max_ms": 3.331071,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "exact-control": {
+    "attempted": 5,
+    "outcomes": {
+      "success": 5
+    },
+    "completed_samples": 5,
+    "median_ms": 0.582232,
+    "min_ms": 0.475145,
+    "max_ms": 2.102155,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  }
+}

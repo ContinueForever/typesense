@@ -1,0 +1,36 @@
+Breakpoint 1 at 0x40efe0: file /home/hermes/typesense/retrieval-study/bench/art_probe.cpp, line 64.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main (argc=<optimized out>, argv=<optimized out>) at /home/hermes/typesense/retrieval-study/bench/art_probe.cpp:64
+64	                    search_cutoff = cancelled;
+   0x555555962fc8 <main(int, char**)+5864>:	decl   -0x20(%rcx,%rcx,4)
+   0x555555962fcc <main(int, char**)+5868>:	add    %fs:0x0,%rax
+   0x555555962fd5 <main(int, char**)+5877>:	je     0x555555968e87 <main(int, char**)+30119>
+   0x555555962fdb <main(int, char**)+5883>:	mov    %rbx,%fs:(%r12)
+=> 0x555555962fe0 <main(int, char**)+5888>:	mov    -0x1f80(%rbp),%rax
+   0x555555962fe7 <main(int, char**)+5895>:	shr    $0x3,%rax
+   0x555555962feb <main(int, char**)+5899>:	movzbl 0x7fff8000(%rax),%eax
+   0x555555962ff2 <main(int, char**)+5906>:	test   %al,%al
+   0x555555962ff4 <main(int, char**)+5908>:	je     0x555555962ffc <main(int, char**)+5916>
+   0x555555962ff6 <main(int, char**)+5910>:	jle    0x555555968e9a <main(int, char**)+30138>
+   0x555555962ffc <main(int, char**)+5916>:	movzbl -0x1c50(%r14),%ebx
+   0x555555963004 <main(int, char**)+5924>:	cmp    $0x1,%bl
+   0x555555963007 <main(int, char**)+5927>:	ja     0x55555595f3af <main(int, char**)-9521>
+   0x55555596300d <main(int, char**)+5933>:	cmpq   $0x0,0x33efc3(%rip)        # 0x555555ca1fd8
+   0x555555963015 <main(int, char**)+5941>:	je     0x55555596301c <main(int, char**)+5948>
+   0x555555963017 <main(int, char**)+5943>:	call   0x55555595c7c0 <_ZTH13search_cutoff@plt>
+   0x55555596301c <main(int, char**)+5948>:	mov    %fs:0x0,%rax
+   0x555555963025 <main(int, char**)+5957>:	and    $0x1,%ebx
+   0x555555963028 <main(int, char**)+5960>:	lea    -0x68(%rax),%rax
+   0x55555596302f <main(int, char**)+5967>:	je     0x555555968ea6 <main(int, char**)+30150>
+   0x555555963035 <main(int, char**)+5973>:	mov    $0xffffffffffffff98,%rax
+   0x55555596303c <main(int, char**)+5980>:	lea    -0xfe1(%r14),%rdx
+   0x555555963043 <main(int, char**)+5987>:	lea    -0x1030(%r14),%rdi
+   0x55555596304a <main(int, char**)+5994>:	xor    %r12d,%r12d
+rax            0x7ffff7f2aee0      140737353264864
+rbx            0xffffffffffffffff  -1
+rbp            0x7fffffffd680      0x7fffffffd680
+main (argc=<optimized out>, argv=<optimized out>) at /home/hermes/typesense/typesense/include/thread_local_vars.h:9
+9	extern thread_local bool search_cutoff;
+#0  main (argc=<optimized out>, argv=<optimized out>) at /home/hermes/typesense/typesense/include/thread_local_vars.h:9

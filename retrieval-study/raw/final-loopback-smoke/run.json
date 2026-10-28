@@ -1,0 +1,93 @@
+{
+  "dataset": "/home/hermes/typesense/retrieval-study/data/small",
+  "dataset_manifest": {
+    "format": 1,
+    "generator": "affine-v1",
+    "config": {
+      "documents": 256,
+      "target_documents": 8,
+      "target_matches": 1,
+      "other_unique": 248,
+      "hot_terms": 248,
+      "seed": 3130
+    },
+    "infix_index": false,
+    "documents_sha256": "b88b49ca59901e2f5bb7f19567deba4c7e5be3f4c2092b13beabf6eb7b6bd874",
+    "documents_bytes": 33588,
+    "content_digest": {
+      "count": 256,
+      "sha256_sum_mod_2_256": "342db278adfc83da7805bee53589fb54ad2e617be3e057815a20d2cf3456eb44"
+    },
+    "note": "Synthetic identifiers; target set is constant across foreign cardinalities."
+  },
+  "queries": [
+    {
+      "id": "oracle-narrow",
+      "oracle": true,
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 257,
+        "filter_by": "orgId:=target"
+      }
+    },
+    {
+      "id": "oracle-empty",
+      "oracle": true,
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 257,
+        "filter_by": "orgId:=absent"
+      }
+    },
+    {
+      "id": "oracle-all",
+      "oracle": true,
+      "params": {
+        "query_by": "item_code",
+        "prefix": "true",
+        "num_typos": 0,
+        "infix": "off",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "per_page": 30,
+        "page": 1,
+        "sort_by": "uOn:desc",
+        "search_cutoff_ms": 5000,
+        "q": "918",
+        "max_candidates": 257
+      }
+    }
+  ],
+  "warmup": 0,
+  "repeats": 1,
+  "load_model": "serial closed loop; client and server share host; not a capacity measurement"
+}

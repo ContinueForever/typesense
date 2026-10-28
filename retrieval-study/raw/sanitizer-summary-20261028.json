@@ -1,0 +1,4 @@
+{
+  "gcc10_asan_ubsan_normal_exit_code": 1,
+  "gcc10_asan_ubsan_stale_exit_code": 1
+}

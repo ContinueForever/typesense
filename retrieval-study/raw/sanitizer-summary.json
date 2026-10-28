@@ -1,0 +1,5 @@
+{
+  "asan_normal_exit_code": 0,
+  "asan_stale_exit_code": 0,
+  "ubsan_baseline_exit_code": 1
+}

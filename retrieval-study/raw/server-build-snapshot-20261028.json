@@ -1,0 +1,53 @@
+{
+  "started_at_utc": "2026-10-28T08:21:50.585174+00:00",
+  "finished_at_utc": "2026-10-28T09:06:53.823854+00:00",
+  "status": "failed",
+  "exit_code": 1,
+  "source_before": {
+    "head": "5dbf03ca8d44845746562cf59487698eb73161b9",
+    "status": "",
+    "diff": ""
+  },
+  "source_after": {
+    "head": "5dbf03ca8d44845746562cf59487698eb73161b9",
+    "status": "",
+    "diff": ""
+  },
+  "provenance_valid": true,
+  "command": [
+    "/home/hermes/typesense/retrieval-study/tools/bazel-6.2.0",
+    "--output_user_root=/home/hermes/typesense/retrieval-study/builds/bazel",
+    "--host_jvm_args=-Xmx512m",
+    "build",
+    "//:typesense-server",
+    "--jobs=1",
+    "--local_ram_resources=1536",
+    "--repository_cache=/home/hermes/typesense/retrieval-study/builds/repository-cache",
+    "--repo_env=CC=/home/hermes/typesense/retrieval-study/tools/gcc10/usr/bin/gcc-10",
+    "--repo_env=CXX=/home/hermes/typesense/retrieval-study/tools/gcc10/usr/bin/g++-10",
+    "--action_env=PATH=/home/hermes/typesense/retrieval-study/tools/bin:/usr/local/bin:/usr/bin:/bin",
+    "--copt=-B/home/hermes/typesense/retrieval-study/tools/bin",
+    "--curses=no",
+    "--color=no"
+  ],
+  "compiler": {
+    "command": [
+      "/home/hermes/typesense/retrieval-study/tools/gcc10/usr/bin/g++-10",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "g++-10 (Ubuntu 10.3.0-15ubuntu1) 10.3.0\nCopyright (C) 2020 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "stderr": ""
+  },
+  "nested_parallelism": "#!/bin/sh\n# Cap nested dependency builds at two workers; Bazel remains limited to one job.\nprintf \"2\\n\"\n",
+  "observed_at_utc": "2026-10-28T09:09:11.921068+00:00",
+  "build_label": "v31-baseline-cached-20261028",
+  "errors": [
+    "/home/hermes/typesense/retrieval-study/builds/bazel/638ad4cd0d20625d0f6007127e39fb91/sandbox/linux-sandbox/257/execroot/__main__/external/elfutils/libcpu/riscv_disasm.c:1259:32: error: initialization discards 'const' qualifier from pointer target type [-Werror=discarded-qualifiers]",
+    "Target //:typesense-server failed to build",
+    "FAILED: Build did NOT complete successfully"
+  ],
+  "full_log_local_path": "/home/hermes/typesense/retrieval-study/raw/v31-baseline-cached-20261028-build.log",
+  "full_server_binary_produced": false,
+  "note": "Full build logs and environment dumps are retained locally. No service-level patch validation is claimed."
+}

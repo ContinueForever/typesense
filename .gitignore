@@ -1,0 +1,16 @@
+/.agents/
+/.aws/
+/.codex/
+/.publication/
+__pycache__/
+*.pyc
+/retrieval-study/tools/
+/retrieval-study/builds/
+/retrieval-study/data/
+/retrieval-study/raw/**/server-data/
+/retrieval-study/raw/**/api-key
+/retrieval-study/raw/**/server.log
+/retrieval-study/raw/**/import.jsonl
+/retrieval-study/raw/*build*.log
+/retrieval-study/raw/*.perf.data
+/retrieval-study/raw/core-profile.[0-9]*

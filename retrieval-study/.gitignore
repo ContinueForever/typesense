@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+/tools/
+/builds/
+/data/
+/raw/**/server-data/
+/raw/**/api-key
+

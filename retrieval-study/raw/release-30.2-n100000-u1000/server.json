@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/hermes/typesense/retrieval-study/builds/release-30.2/typesense-server",
+    "--data-dir",
+    "/home/hermes/typesense/retrieval-study/raw/release-30.2-n100000-u1000/server-data",
+    "--api-key",
+    "<ephemeral-key>",
+    "--api-address",
+    "127.0.0.1",
+    "--api-port",
+    "32837",
+    "--peering-port",
+    "51591",
+    "--thread-pool-size",
+    "2"
+  ],
+  "ownership": "Only this Popen child is terminated."
+}

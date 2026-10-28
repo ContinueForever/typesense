@@ -1,0 +1,6 @@
+{
+  "oracle_checks": 24,
+  "failures": [],
+  "passed": true,
+  "note": "Static cache responses retained; no claim of mutation-time cache invalidation."
+}

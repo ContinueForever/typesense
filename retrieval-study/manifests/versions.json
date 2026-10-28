@@ -1,0 +1,66 @@
+{
+  "recorded_at_utc": "2026-10-26T13:18:35.930238+00:00",
+  "report_version": "30.2",
+  "upstream_commit": "5dbf03ca8d44845746562cf59487698eb73161b9",
+  "source_url": "https://github.com/typesense/typesense.git",
+  "bazel": {
+    "version": "6.2.0",
+    "url": "https://github.com/bazelbuild/bazel/releases/download/6.2.0/bazel-6.2.0-linux-x86_64",
+    "sha256": "3d11c26fb9ba12c833844450bb90165b176e8a19cb5cf5923f3cec855837f17c"
+  },
+  "gcc10_packages": [
+    {
+      "Package": "cpp-10",
+      "Version": "10.3.0-15ubuntu1",
+      "Filename": "pool/universe/g/gcc-10/cpp-10_10.3.0-15ubuntu1_amd64.deb",
+      "SHA256": "5599b65953b9c7f7d98a1061ea6e8dbd3de5cb7bdec36d11fb584f116d9a92f7"
+    },
+    {
+      "Package": "g++-10",
+      "Version": "10.3.0-15ubuntu1",
+      "Filename": "pool/universe/g/gcc-10/g++-10_10.3.0-15ubuntu1_amd64.deb",
+      "SHA256": "d3e47c8ccb3b430d276efc13037dd2eade2a670da8e71a97ad4e798230ee1188"
+    },
+    {
+      "Package": "gcc-10-base",
+      "Version": "10.3.0-15ubuntu1",
+      "Filename": "pool/universe/g/gcc-10/gcc-10-base_10.3.0-15ubuntu1_amd64.deb",
+      "SHA256": "ee82f5414ed13eb43253b5422c6808bd0068d8638070cdc8dd13f75c82568935"
+    },
+    {
+      "Package": "gcc-10",
+      "Version": "10.3.0-15ubuntu1",
+      "Filename": "pool/universe/g/gcc-10/gcc-10_10.3.0-15ubuntu1_amd64.deb",
+      "SHA256": "832ac751c372c4273538a3a01eb4ee6ccd23246886d10238f068ea274e4965f7"
+    },
+    {
+      "Package": "libgcc-10-dev",
+      "Version": "10.3.0-15ubuntu1",
+      "Filename": "pool/universe/g/gcc-10/libgcc-10-dev_10.3.0-15ubuntu1_amd64.deb",
+      "SHA256": "2e6f32f4741bbe648efc95771dfa163452d295604fa083259dda866624b7c53c"
+    },
+    {
+      "Package": "libstdc++-10-dev",
+      "Version": "10.3.0-15ubuntu1",
+      "Filename": "pool/universe/g/gcc-10/libstdc++-10-dev_10.3.0-15ubuntu1_amd64.deb",
+      "SHA256": "a6e09e196ba3f75f286896e2823788a1b81015ffefa98cd3b88e3be775ac30f3"
+    }
+  ],
+  "lld": {
+    "source": "Ubuntu resolute lld-21_1:21.1.8-6ubuntu1_amd64.deb",
+    "sha256": "eb4f4208329364938c91d958fcdc3226db032c88ae3529adce13c4f3983c0603"
+  },
+  "gtest_commit": "58d77fa8070e8cec2dc1ed015d66b454c8d78850",
+  "test_resources": {
+    "builds/test-resources/test/ill.txt": "22332d5c4752a2b7b6bce118bed6bffb7c7c978a2bf6f88ec586cd6fa9b13691",
+    "builds/test-resources/test/skus.txt": "12c5a5554c66864fa90e81318b336fb13b0c1080be01134b06de9436477c1401",
+    "builds/test-resources/external/libart/tests/uuid.txt": "f8cb59e1ed23fb77fa170eff0b75321d556be06b1fd09582809edc28632c5a4c",
+    "builds/test-resources/external/libart/tests/words.txt": "69d1a74371b98676d3312727115b13fefaf57d561561b6ee347d13b1eea0d0c9"
+  },
+  "release_binary": {
+    "source": "https://dl.typesense.org/releases/30.2/typesense-server-30.2-linux-amd64.tar.gz",
+    "archive_sha256": "cd791605e7c6cc7be457794f534cd4b9f9d361781adb10e40020efc22840ebc3",
+    "binary_sha256": "1178111344c96bf91567f579a30e0153e346f716b6f3e10f484ba099f21450b5",
+    "build_commit": "not exposed by the released binary; do not infer from the current branch"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "oracle-narrow": {
+    "attempted": 1,
+    "outcomes": {
+      "success": 1
+    },
+    "completed_samples": 1,
+    "median_ms": 1.13757,
+    "min_ms": 1.13757,
+    "max_ms": 1.13757,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "oracle-empty": {
+    "attempted": 1,
+    "outcomes": {
+      "success": 1
+    },
+    "completed_samples": 1,
+    "median_ms": 0.771088,
+    "min_ms": 0.771088,
+    "max_ms": 0.771088,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "oracle-all": {
+    "attempted": 1,
+    "outcomes": {
+      "success": 1
+    },
+    "completed_samples": 1,
+    "median_ms": 4.494011,
+    "min_ms": 4.494011,
+    "max_ms": 4.494011,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  }
+}

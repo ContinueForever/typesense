@@ -1,0 +1,3 @@
+[submodule "typesense"]
+	path = typesense
+	url = https://github.com/typesense/typesense.git

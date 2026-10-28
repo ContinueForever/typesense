@@ -1,0 +1,4 @@
+{"phase":"warmup","recorded_at_utc":"2026-10-26T13:07:22.708746+00:00","round":0,"status":{"Threads":"55","VmHWM":"71432 kB","VmRSS":"71432 kB","VmSwap":"0 kB"},"system_cpu_seconds":0.06,"user_cpu_seconds":0.05}
+{"phase":"measure","recorded_at_utc":"2026-10-26T13:07:22.766582+00:00","round":0,"status":{"Threads":"55","VmHWM":"71648 kB","VmRSS":"71648 kB","VmSwap":"0 kB"},"system_cpu_seconds":0.07,"user_cpu_seconds":0.07}
+{"phase":"measure","recorded_at_utc":"2026-10-26T13:07:22.820973+00:00","round":1,"status":{"Threads":"55","VmHWM":"71808 kB","VmRSS":"71808 kB","VmSwap":"0 kB"},"system_cpu_seconds":0.08,"user_cpu_seconds":0.08}
+{"phase":"measure","recorded_at_utc":"2026-10-26T13:07:22.876972+00:00","round":2,"status":{"Threads":"55","VmHWM":"71888 kB","VmRSS":"71888 kB","VmSwap":"0 kB"},"system_cpu_seconds":0.08,"user_cpu_seconds":0.1}

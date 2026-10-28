@@ -1,0 +1,14 @@
+{
+  "imported": 98304,
+  "deleted": {
+    "num_deleted": 32768
+  },
+  "expected": {
+    "count": 65536,
+    "sha256_sum_mod_2_256": "6f5d15abb3775c1c997365eb7c485fc3700f73125b3e01640a085f58a8d94633"
+  },
+  "exported": {
+    "count": 65536,
+    "sha256_sum_mod_2_256": "6f5d15abb3775c1c997365eb7c485fc3700f73125b3e01640a085f58a8d94633"
+  }
+}

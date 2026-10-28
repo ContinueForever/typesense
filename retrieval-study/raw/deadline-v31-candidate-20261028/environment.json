@@ -1,0 +1,70 @@
+{
+  "recorded_at_utc": "2026-10-28T12:42:21.836610+00:00",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "cpu_count": 4,
+  "cpu": {
+    "command": [
+      "lscpu"
+    ],
+    "exit_code": 0,
+    "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           45 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               GenuineIntel\nModel name:                              11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz\nCPU family:                              6\nModel:                                   141\nThread(s) per core:                      1\nCore(s) per socket:                      1\nSocket(s):                               4\nStepping:                                1\nBogoMIPS:                                4607.99\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid movdiri movdir64b fsrm avx512_vp2intersect md_clear flush_l1d arch_capabilities\nHypervisor vendor:                       VMware\nVirtualization type:                     full\nL1d cache:                               192 KiB (4 instances)\nL1i cache:                               128 KiB (4 instances)\nL2 cache:                                5 MiB (4 instances)\nL3 cache:                                96 MiB (4 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Unknown: Dependent on hypervisor status\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Mitigation; Aligned branch/return thunks\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Mitigation; PTE Inversion\nVulnerability Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown\nVulnerability Meltdown:                  Mitigation; PTI\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; IBRS\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; IBRS; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected",
+    "stderr": ""
+  },
+  "memory": "MemTotal:        8141412 kB\nMemFree:          295732 kB\nMemAvailable:    4166172 kB\nBuffers:           23224 kB\nCached:          3978288 kB\nSwapCached:       134800 kB\nActive:          3290084 kB\nInactive:        3231208 kB\nActive(anon):    1870208 kB\nInactive(anon):   758576 kB\nActive(file):    1419876 kB\nInactive(file):  2472632 kB\nUnevictable:          16 kB\nMlocked:              16 kB\nSwapTotal:       4194300 kB\nSwapFree:         697388 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:            273400 kB\nWriteback:             0 kB\nAnonPages:       2386388 kB\nMapped:           543948 kB\nShmem:            196476 kB\nKReclaimable:     285396 kB\nSlab:             564972 kB\nSReclaimable:     285396 kB\nSUnreclaim:       279576 kB\nKernelStack:       25940 kB\nPageTables:        82764 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     8265004 kB\nCommitted_AS:   21784916 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       52796 kB\nVmallocChunk:          0 kB\nPercpu:           128000 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:     43008 kB\nFilePmdMapped:         0 kB\nCmaTotal:              0 kB\nCmaFree:          142872 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nGPUActive:        447524 kB\nGPUReclaim:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      220992 kB\nDirectMap2M:     6668288 kB\nDirectMap1G:     2097152 kB\n",
+  "storage": {
+    "total": 105356070912,
+    "used": 59517349888,
+    "free": 41097789440
+  },
+  "compiler": {
+    "command": [
+      "g++",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "stderr": ""
+  },
+  "os_release": "PRETTY_NAME=\"Ubuntu 26.04 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04 (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+  "source": {
+    "path": "/home/hermes/typesense/typesense",
+    "head": {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "5dbf03ca8d44845746562cf59487698eb73161b9",
+      "stderr": ""
+    },
+    "status": {
+      "command": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "exit_code": 0,
+      "stdout": "M src/art.cpp\n?? test/art_traversal_cutoff_test.cpp",
+      "stderr": ""
+    },
+    "diff": {
+      "command": [
+        "git",
+        "diff",
+        "--",
+        "src",
+        "include",
+        "test"
+      ],
+      "exit_code": 0,
+      "stdout": "diff --git a/src/art.cpp b/src/art.cpp\nindex c2c116d..7c7aede 100644\n--- a/src/art.cpp\n+++ b/src/art.cpp\n@@ -1066,6 +1066,15 @@ int art_topk_iter(const art_node *root, token_ordering token_order, size_t max_r\n     size_t num_processed = 0;\n \n     while(!q.empty() && results.size() < max_results*4) {\n+        // Internal nodes can dominate the work before any leaf is reached (for\n+        // example, conservative score bounds after deletes). Account for every\n+        // queue entry, rather than only leaves accepted or rejected by a filter.\n+        if (++num_processed % 1024 == 0 && (microseconds(\n+                std::chrono::system_clock::now().time_since_epoch()).count() - search_begin_us) > search_stop_us) {\n+            search_cutoff = true;\n+            break;\n+        }\n+\n         art_node *n = (art_node *) q.top();\n         q.pop();\n \n@@ -1083,12 +1092,6 @@ int art_topk_iter(const art_node *root, token_ordering token_order, size_t max_r\n             validate_and_add_leaf(l, last_token, prev_token, allowed_doc_ids, allowed_doc_ids_len,\n                                   exclude_leaves, exact_leaf, results);\n \n-            if (++num_processed % 1024 == 0 && (microseconds(\n-                    std::chrono::system_clock::now().time_since_epoch()).count() - search_begin_us) > search_stop_us) {\n-                search_cutoff = true;\n-                break;\n-            }\n-\n             continue;\n         }\n \n@@ -1166,6 +1169,15 @@ int art_topk_iter(const art_node *root, token_ordering token_order, size_t max_r\n     size_t num_processed = 0;\n \n     while(!q.empty() && results.size() < max_results*4) {\n+        // Internal nodes can dominate the work before any leaf is reached (for\n+        // example, conservative score bounds after deletes). Account for every\n+        // queue entry, rather than only leaves accepted or rejected by a filter.\n+        if (++num_processed % 1024 == 0 && (microseconds(\n+                std::chrono::system_clock::now().time_since_epoch()).count() - search_begin_us) > search_stop_us) {\n+            search_cutoff = true;\n+            break;\n+        }\n+\n         art_node *n = (art_node *) q.top();\n         q.pop();\n \n@@ -1178,9 +1190,7 @@ int art_topk_iter(const art_node *root, token_ordering token_order, size_t max_r\n                                   exclude_leaves, results);\n             filter_result_iterator->reset();\n \n-            if (filter_result_iterator->validity == filter_result_iterator_t::timed_out ||\n-                (++num_processed % 1024 == 0 && (microseconds(\n-                    std::chrono::system_clock::now().time_since_epoch()).count() - search_begin_us) > search_stop_us)) {\n+            if (filter_result_iterator->validity == filter_result_iterator_t::timed_out) {\n                 search_cutoff = true;\n                 break;\n             }",
+      "stderr": ""
+    }
+  },
+  "binary": {
+    "path": "/home/hermes/typesense/retrieval-study/builds/v31-candidate-compat3-20261028/typesense-server",
+    "sha256": "e78c5d71ef6e84d1d264ebcc069e60040ef68556c0332484a210a7119fdea774"
+  }
+}

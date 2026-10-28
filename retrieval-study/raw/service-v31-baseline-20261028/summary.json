@@ -1,0 +1,13 @@
+{
+  "oracle_checks": 24,
+  "failures": [],
+  "passed": true,
+  "stages": [
+    "initial",
+    "updated-and-deleted",
+    "reinserted",
+    "after-deadline"
+  ],
+  "search_requests": 109,
+  "note": "Static cache responses retained; no claim of mutation-time cache invalidation."
+}

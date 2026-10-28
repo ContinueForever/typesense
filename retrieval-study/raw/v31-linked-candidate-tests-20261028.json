@@ -1,0 +1,503 @@
+{
+  "tests": 47,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2026-10-28T20:42:21Z",
+  "time": "0.496s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ArtTest",
+      "tests": 44,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-10-28T20:42:21Z",
+      "time": "0.491s",
+      "testsuite": [
+        {
+          "name": "test_art_init_and_destroy",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 23,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 34,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.062s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert_verylong",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 58,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert_search",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 113,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.066s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert_delete",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 158,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.07s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert_iter",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 220,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.049s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_iter_prefix",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 267,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_long_prefix",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 340,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert_search_uuid",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 386,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.034s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_max_prefix_len_scan_prefix",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 430,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_prefix_iter_out_of_bounds",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 460,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_out_of_bounds",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 491,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_delete_out_of_bounds",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 520,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_insert_multiple_ids_for_same_token",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 549,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_single_leaf",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 579,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_single_leaf_prefix",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 617,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_single_leaf_qlen_greater_than_key",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 643,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_single_leaf_non_prefix",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 661,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_short_query",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 684,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_prefix_larger_than_key",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 703,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_prefix_token_ordering",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 721,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 758,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.056s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_unicode_chars",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 883,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_fuzzy_search_extra_chars",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 910,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_sku_like_tokens",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 933,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.001s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_ill_like_tokens",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 983,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_ill_like_tokens2",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1054,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_roche_chews",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1102,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_raspberry",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1137,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_art_search_highliving",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1171,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_encode_int32",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1206,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int32_overlap",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1251,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int32_range_hundreds",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1279,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int32_duplicates",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1325,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.002s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int32_negative",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1356,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int32_million",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1407,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.148s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int_range_byte_boundary",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1489,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_encode_int64",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1518,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_search_int64",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1553,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_search_negative_int64",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1599,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_search_negative_int64_large",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1645,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_int32_array",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1667,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_encode_float_positive",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1698,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        },
+        {
+          "name": "test_encode_float_positive_negative",
+          "file": "\/home\/hermes\/typesense\/typesense\/test\/art_test.cpp",
+          "line": 1758,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0s",
+          "classname": "ArtTest"
+        }
+      ]
+    },
+    {
+      "name": "ArtTraversalCutoffTest",
+      "tests": 3,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-10-28T20:42:21Z",
+      "time": "0.005s",
+      "testsuite": [
+        {
+          "name": "ChecksDeadlineWhileExpandingInternalNodes",
+          "file": "\/home\/hermes\/typesense\/retrieval-study\/patches\/art_traversal_cutoff_test.cpp",
+          "line": 56,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.001s",
+          "classname": "ArtTraversalCutoffTest"
+        },
+        {
+          "name": "SubsequentQueryWithNewBudgetStillReturnsCandidates",
+          "file": "\/home\/hermes\/typesense\/retrieval-study\/patches\/art_traversal_cutoff_test.cpp",
+          "line": 63,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.001s",
+          "classname": "ArtTraversalCutoffTest"
+        },
+        {
+          "name": "IteratorEntryPointChecksInternalNodeDeadline",
+          "file": "\/home\/hermes\/typesense\/retrieval-study\/patches\/art_traversal_cutoff_test.cpp",
+          "line": 78,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-10-28T20:42:21Z",
+          "time": "0.001s",
+          "classname": "ArtTraversalCutoffTest"
+        }
+      ]
+    }
+  ]
+}

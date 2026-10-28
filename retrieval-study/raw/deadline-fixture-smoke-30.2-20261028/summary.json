@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "failures": [],
+  "requests": 11,
+  "cases": {
+    "exact-recovery": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 0.498989,
+      "engine_ms": [
+        0
+      ]
+    },
+    "target-budget-1": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 2.222218,
+      "engine_ms": [
+        0
+      ]
+    },
+    "target-budget-2": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.568344,
+      "engine_ms": [
+        0
+      ]
+    },
+    "target-budget-20": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.317956,
+      "engine_ms": [
+        0
+      ]
+    },
+    "target-budget-5": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 2.347452,
+      "engine_ms": [
+        1
+      ]
+    },
+    "target-budget-5000": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.439878,
+      "engine_ms": [
+        0
+      ]
+    },
+    "unfiltered-budget-1": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.928826,
+      "engine_ms": [
+        0
+      ]
+    },
+    "unfiltered-budget-2": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.287114,
+      "engine_ms": [
+        0
+      ]
+    },
+    "unfiltered-budget-20": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.14494,
+      "engine_ms": [
+        0
+      ]
+    },
+    "unfiltered-budget-5": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 0.960376,
+      "engine_ms": [
+        0
+      ]
+    },
+    "unfiltered-budget-5000": {
+      "samples": 1,
+      "outcomes": {
+        "success": 1
+      },
+      "median_elapsed_ms": 1.840861,
+      "engine_ms": [
+        0
+      ]
+    }
+  },
+  "resources": {
+    "recorded_at_utc": "2026-10-28T12:15:50.006566+00:00",
+    "status": {
+      "VmHWM": "80792 kB",
+      "VmRSS": "80792 kB",
+      "VmSwap": "0 kB",
+      "Threads": "55"
+    },
+    "user_cpu_seconds": 0.18,
+    "system_cpu_seconds": 0.04
+  },
+  "scope": "HTTP diagnostic with controlled deletes; not a formal throughput or percentile benchmark."
+}

@@ -1,0 +1,427 @@
+{
+  "started_at_utc": "2026-10-28T12:03:34.101621+00:00",
+  "command": [
+    "/home/hermes/typesense/retrieval-study/tools/bazel-6.2.0",
+    "--output_user_root=/home/hermes/typesense/retrieval-study/builds/bazel",
+    "--host_jvm_args=-Xmx512m",
+    "build",
+    "//:typesense-server",
+    "--jobs=1",
+    "--local_ram_resources=1536",
+    "--repository_cache=/home/hermes/typesense/retrieval-study/builds/repository-cache",
+    "--repo_env=CC=/home/hermes/typesense/retrieval-study/tools/gcc10/usr/bin/gcc-10",
+    "--repo_env=CXX=/home/hermes/typesense/retrieval-study/tools/gcc10/usr/bin/g++-10",
+    "--action_env=PATH=/home/hermes/typesense/retrieval-study/tools/bin:/usr/local/bin:/usr/bin:/bin",
+    "--copt=-B/home/hermes/typesense/retrieval-study/tools/bin",
+    "--curses=no",
+    "--color=no"
+  ],
+  "source_before": {
+    "head": "5dbf03ca8d44845746562cf59487698eb73161b9",
+    "status": "",
+    "diff": ""
+  },
+  "compiler": {
+    "command": [
+      "/home/hermes/typesense/retrieval-study/tools/gcc10/usr/bin/g++-10",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "g++-10 (Ubuntu 10.3.0-15ubuntu1) 10.3.0\nCopyright (C) 2020 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "stderr": ""
+  },
+  "environment": {
+    "recorded_at_utc": "2026-10-28T12:03:34.104237+00:00",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "cpu_count": 4,
+    "cpu": {
+      "command": [
+        "lscpu"
+      ],
+      "exit_code": 0,
+      "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           45 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               GenuineIntel\nModel name:                              11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz\nCPU family:                              6\nModel:                                   141\nThread(s) per core:                      1\nCore(s) per socket:                      1\nSocket(s):                               4\nStepping:                                1\nBogoMIPS:                                4607.99\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid movdiri movdir64b fsrm avx512_vp2intersect md_clear flush_l1d arch_capabilities\nHypervisor vendor:                       VMware\nVirtualization type:                     full\nL1d cache:                               192 KiB (4 instances)\nL1i cache:                               128 KiB (4 instances)\nL2 cache:                                5 MiB (4 instances)\nL3 cache:                                96 MiB (4 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Unknown: Dependent on hypervisor status\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Mitigation; Aligned branch/return thunks\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Mitigation; PTE Inversion\nVulnerability Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown\nVulnerability Meltdown:                  Mitigation; PTI\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; IBRS\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; IBRS; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected",
+      "stderr": ""
+    },
+    "memory": "MemTotal:        8141412 kB\nMemFree:          417564 kB\nMemAvailable:    3075988 kB\nBuffers:          119504 kB\nCached:          2561872 kB\nSwapCached:       271392 kB\nActive:          3282424 kB\nInactive:        3136492 kB\nActive(anon):    2506540 kB\nInactive(anon):  1198860 kB\nActive(file):     775884 kB\nInactive(file):  1937632 kB\nUnevictable:          16 kB\nMlocked:              16 kB\nSwapTotal:       4194300 kB\nSwapFree:        1613120 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:              2040 kB\nWriteback:             0 kB\nAnonPages:       3469676 kB\nMapped:           913584 kB\nShmem:            182480 kB\nKReclaimable:     252372 kB\nSlab:             529388 kB\nSReclaimable:     252372 kB\nSUnreclaim:       277016 kB\nKernelStack:       26472 kB\nPageTables:        86632 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     8265004 kB\nCommitted_AS:   21882112 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       53260 kB\nVmallocChunk:          0 kB\nPercpu:           128000 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:      8192 kB\nFilePmdMapped:         0 kB\nCmaTotal:              0 kB\nCmaFree:           44608 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nGPUActive:        460900 kB\nGPUReclaim:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      220992 kB\nDirectMap2M:     6668288 kB\nDirectMap1G:     2097152 kB\n",
+    "storage": {
+      "total": 105356070912,
+      "used": 55887028224,
+      "free": 44728111104
+    },
+    "compiler": {
+      "command": [
+        "g++",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "stderr": ""
+    },
+    "os_release": "PRETTY_NAME=\"Ubuntu 26.04 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04 (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+    "source": {
+      "path": "/home/hermes/typesense/typesense",
+      "head": {
+        "command": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "5dbf03ca8d44845746562cf59487698eb73161b9",
+        "stderr": ""
+      },
+      "status": {
+        "command": [
+          "git",
+          "status",
+          "--short"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "diff": {
+        "command": [
+          "git",
+          "diff",
+          "--",
+          "src",
+          "include",
+          "test"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  },
+  "status": "failed",
+  "log": "/home/hermes/typesense/retrieval-study/raw/v31-baseline-compat-20261028-build.log",
+  "target": "typesense-server",
+  "build_compatibility_before": {
+    "config": {
+      "recorded_at_utc": "2026-10-28T12:03:01.235131+00:00",
+      "dependency": "elfutils 0.191",
+      "archive_sha256": "df76db71366d1d708365fc7a6c60ca48398f14367eb2b8954efc8897147ad871",
+      "patch": "patches/build-compat/elfutils-0.191-glibc-2.43-const.patch",
+      "patch_sha256": "65624e3244593c01f6cb2783c6107b8be8c5a5841b0abd6c880c2240f96620f3",
+      "rationale": "glibc 2.43 enables qualifier-generic bsearch with _GNU_SOURCE; the constant CSR table is read only, so its lookup result must retain const.",
+      "reference": "https://sourceware.org/glibc/manual/2.43/html_node/Array-Search-Function.html",
+      "scope": "Build compatibility only; no warning suppression or search algorithm change.",
+      "files": [
+        {
+          "path": "/home/hermes/typesense/retrieval-study/builds/bazel/638ad4cd0d20625d0f6007127e39fb91/external/elfutils/libcpu/riscv_disasm.c",
+          "before_sha256": "6732b1981da6d12dd3258700999f29dc3b51cdf0a1f4b8ca0f35fc9445231522",
+          "after_sha256": "2cf0844d7bef88b761b6123eef7d1d85be36c678daa517023720d092434e8bb4"
+        }
+      ]
+    },
+    "files": [
+      {
+        "path": "/home/hermes/typesense/retrieval-study/builds/bazel/638ad4cd0d20625d0f6007127e39fb91/external/elfutils/libcpu/riscv_disasm.c",
+        "sha256": "2cf0844d7bef88b761b6123eef7d1d85be36c678daa517023720d092434e8bb4"
+      }
+    ],
+    "valid": true
+  },
+  "nested_parallelism": "#!/bin/sh\n# Cap nested dependency builds at two workers; Bazel remains limited to one job.\nprintf \"2\\n\"\n",
+  "dependency_download_cache": {
+    "purpose": "Local download transport only; original pinned hashes remain enforced by CMake.",
+    "original_file_sha256": "c565e013f1810db3a0c85b9f76d9742fb38b575fa46f7ac26b9b77dfc30cf5dc",
+    "dependency_file": "/home/hermes/typesense/retrieval-study/builds/bazel/638ad4cd0d20625d0f6007127e39fb91/external/onnx_runtime/cmake/deps.txt",
+    "rewritten_file_sha256": "f040527f41033b6aa546dce3ede9ea2958b4f61e6049df06e40109906654d194",
+    "archives": [
+      {
+        "name": "abseil_cpp",
+        "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/20220623.1.zip",
+        "sha1": "50c137c88965cba015dfcc8fd5d9b46d23146751",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/abseil_cpp-50c137c88965cba015dfcc8fd5d9b46d23146751.zip",
+        "sha256": "54707f411cb62a26a776dad5fd60829098c181700edcd022ea5c2ca49e9b7ef1",
+        "bytes": 2779033
+      },
+      {
+        "name": "cxxopts",
+        "url": "https://github.com/jarro2783/cxxopts/archive/3c73d91c0b04e2b59462f0a741be8c07024c1bc0.zip",
+        "sha1": "6c6ca7f8480b26c8d00476e0e24b7184717fe4f0",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/cxxopts-6c6ca7f8480b26c8d00476e0e24b7184717fe4f0.zip",
+        "sha256": "57b5f012372d4c0e0a975b2e534e9af647cd20530fc72f73a75a61e05e0f997e",
+        "bytes": 98330
+      },
+      {
+        "name": "date",
+        "url": "https://github.com/HowardHinnant/date/archive/refs/tags/v2.4.1.zip",
+        "sha1": "ea99f021262b1d804a872735c658860a6a13cc98",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/date-ea99f021262b1d804a872735c658860a6a13cc98.zip",
+        "sha256": "9278d7568afdf6fb880f277d5e344f92c0531459f15643bc945849c2f209dab2",
+        "bytes": 905121
+      },
+      {
+        "name": "dlpack",
+        "url": "https://github.com/dmlc/dlpack/archive/refs/tags/v0.6.zip",
+        "sha1": "4d565dd2e5b31321e5549591d78aa7f377173445",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/dlpack-4d565dd2e5b31321e5549591d78aa7f377173445.zip",
+        "sha256": "cb296b25f1ad5d52aa0efd7553e1aab17ab4561d1068b291fbe14d543d22f381",
+        "bytes": 44987
+      },
+      {
+        "name": "flatbuffers",
+        "url": "https://github.com/google/flatbuffers/archive/refs/tags/v1.12.0.zip",
+        "sha1": "ba0a75fd12dbef8f6557a74e611b7a3d0c5fe7bf",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/flatbuffers-ba0a75fd12dbef8f6557a74e611b7a3d0c5fe7bf.zip",
+        "sha256": "4b8b21adbfe8a74b90604161afcf87c125a26b86c99327e7a04525080606536c",
+        "bytes": 1498456
+      },
+      {
+        "name": "fp16",
+        "url": "https://github.com/Maratyszcza/FP16/archive/0a92994d729ff76a58f692d3028ca1b64b145d91.zip",
+        "sha1": "b985f6985a05a1c03ff1bb71190f66d8f98a1494",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/fp16-b985f6985a05a1c03ff1bb71190f66d8f98a1494.zip",
+        "sha256": "e66e65515fa09927b348d3d584c68be4215cfe664100d01c9dbc7655a5716d70",
+        "bytes": 91373
+      },
+      {
+        "name": "fxdiv",
+        "url": "https://github.com/Maratyszcza/FXdiv/archive/63058eff77e11aa15bf531df5dd34395ec3017c8.zip",
+        "sha1": "a5658f4036402dbca7cebee32be57fb8149811e1",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/fxdiv-a5658f4036402dbca7cebee32be57fb8149811e1.zip",
+        "sha256": "3d7b0e9c4c658a84376a1086126be02f9b7f753caa95e009d9ac38d11da444db",
+        "bytes": 16646
+      },
+      {
+        "name": "google_benchmark",
+        "url": "https://github.com/google/benchmark/archive/refs/tags/v1.7.0.zip",
+        "sha1": "e97c368b176e8614e3f1bf13dd9abcf6a7ad9908",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/google_benchmark-e97c368b176e8614e3f1bf13dd9abcf6a7ad9908.zip",
+        "sha256": "e0e6a0f2a5e8971198e5d382507bfe8e4be504797d75bb7aec44b5ea368fa100",
+        "bytes": 264811
+      },
+      {
+        "name": "google_nsync",
+        "url": "https://github.com/google/nsync/archive/refs/tags/1.23.0.zip",
+        "sha1": "f3233450cf7156fc0bedd1b0e884eddec264897c",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/google_nsync-f3233450cf7156fc0bedd1b0e884eddec264897c.zip",
+        "sha256": "f0798b4ab5705641c0f8d3dc7feed0451b4c7c294f23ebd4439079a212045d67",
+        "bytes": 336196
+      },
+      {
+        "name": "googletest",
+        "url": "https://github.com/google/googletest/archive/519beb0e52c842729b4b53731d27c0e0c32ab4a2.zip",
+        "sha1": "4b3c37972e4c1bef1185d46f702082f8772ee73f",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/googletest-4b3c37972e4c1bef1185d46f702082f8772ee73f.zip",
+        "sha256": "54ae4f5730d8aa7c36a684ffdc28a155c41910f0853ac424ecd3157778829ba3",
+        "bytes": 1102627
+      },
+      {
+        "name": "googlexnnpack",
+        "url": "https://github.com/google/XNNPACK/archive/003c580e696a774afdc984996ee909b7c8d8128c.zip",
+        "sha1": "9f192e3f15e1e37ae9c78d53eeea47e45c5eb31c",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/googlexnnpack-9f192e3f15e1e37ae9c78d53eeea47e45c5eb31c.zip",
+        "sha256": "32fadc91d9d7d624223b3c4091b66509d3215d1ff6a47ef086cc0809b4978b20",
+        "bytes": 18355510
+      },
+      {
+        "name": "json",
+        "url": "https://github.com/nlohmann/json/archive/refs/tags/v3.10.5.zip",
+        "sha1": "f257f8dc27c5b8c085dc887b40cddd18ae1f725c",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/json-f257f8dc27c5b8c085dc887b40cddd18ae1f725c.zip",
+        "sha256": "ea4b0084709fb934f92ca0a68669daa0fe6f2a2c6400bf353454993a834bb0bb",
+        "bytes": 7381040
+      },
+      {
+        "name": "microsoft_gsl",
+        "url": "https://github.com/microsoft/GSL/archive/refs/tags/v4.0.0.zip",
+        "sha1": "cf368104cd22a87b4dd0c80228919bb2df3e2a14",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/microsoft_gsl-cf368104cd22a87b4dd0c80228919bb2df3e2a14.zip",
+        "sha256": "eb91fcb10a6aa5ccb1d224e07a56c8ecffe9a1bb601fa1848276ec46a2200bfb",
+        "bytes": 78670
+      },
+      {
+        "name": "microsoft_wil",
+        "url": "https://github.com/microsoft/wil/archive/5f4caba4e7a9017816e47becdd918fcc872039ba.zip",
+        "sha1": "fd119887d0d17c37adf1fc227b054befa28158ad",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/microsoft_wil-fd119887d0d17c37adf1fc227b054befa28158ad.zip",
+        "sha256": "e6193cc2910d66ce94e373ad37d60bf434a40144e36cd91e2c4fc75fb01896e7",
+        "bytes": 520483
+      },
+      {
+        "name": "mimalloc",
+        "url": "https://github.com/microsoft/mimalloc/archive/refs/tags/v2.0.3.zip",
+        "sha1": "e4f37b93b2da78a5816c2495603a4188d316214b",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/mimalloc-e4f37b93b2da78a5816c2495603a4188d316214b.zip",
+        "sha256": "8e5f0b74fdafab09e8853415700a9ade4d62d5f56cd43f54adf02580ceda86c1",
+        "bytes": 1034979
+      },
+      {
+        "name": "mp11",
+        "url": "https://github.com/boostorg/mp11/archive/refs/tags/boost-1.79.0.zip",
+        "sha1": "c8f04e378535ededbe5af52c8f969d2dedbe73d5",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/mp11-c8f04e378535ededbe5af52c8f969d2dedbe73d5.zip",
+        "sha256": "ed04f5d8b30cad7fc16d0e4c9f670c6df10b01845315fad696015c4e5e5e9cc8",
+        "bytes": 232603
+      },
+      {
+        "name": "onnx",
+        "url": "https://github.com/onnx/onnx/archive/refs/tags/v1.13.0.zip",
+        "sha1": "8dda5079cdb5a134b08b0c73f4592a6404fc2dc6",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/onnx-8dda5079cdb5a134b08b0c73f4592a6404fc2dc6.zip",
+        "sha256": "e7bc9a44ce91953e15f56090c3df3b238a692bf6e81d93efd13f1bfee3d801a1",
+        "bytes": 13594376
+      },
+      {
+        "name": "onnx_tensorrt",
+        "url": "https://github.com/onnx/onnx-tensorrt/archive/369d6676423c2a6dbf4a5665c4b5010240d99d3c.zip",
+        "sha1": "62119892edfb78689061790140c439b111491275",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/onnx_tensorrt-62119892edfb78689061790140c439b111491275.zip",
+        "sha256": "003f2b11b8630ecf89ceb04bc963a87f4550677942ecf90f059891993c14abb8",
+        "bytes": 194291
+      },
+      {
+        "name": "protobuf",
+        "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v3.20.2.zip",
+        "sha1": "9f71dad95fb83438e88822a9969fc93773fd8c48",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/protobuf-9f71dad95fb83438e88822a9969fc93773fd8c48.zip",
+        "sha256": "d562030d993451e6cafe84a2a063bac33a34bc652911f9679c196b29b1d164d9",
+        "bytes": 7571353
+      },
+      {
+        "name": "psimd",
+        "url": "https://github.com/Maratyszcza/psimd/archive/072586a71b55b7f8c584153d223e95687148a900.zip",
+        "sha1": "1f5454b01f06f9656b77e4a5e2e31d7422487013",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/psimd-1f5454b01f06f9656b77e4a5e2e31d7422487013.zip",
+        "sha256": "dc615342bcbe51ca885323e51b68b90ed9bb9fa7df0f4419dbfa0297d5e837b7",
+        "bytes": 8327
+      },
+      {
+        "name": "pthreadpool",
+        "url": "https://github.com/Maratyszcza/pthreadpool/archive/1787867f6183f056420e532eec640cba25efafea.zip",
+        "sha1": "e43e80781560c5ab404a4da20f34d846f5f5d101",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/pthreadpool-e43e80781560c5ab404a4da20f34d846f5f5d101.zip",
+        "sha256": "ec47d402b43ad763b2a33727f2459144397e8c4f1f4fae9b064576240c562557",
+        "bytes": 68007
+      },
+      {
+        "name": "pybind11",
+        "url": "https://github.com/pybind/pybind11/archive/refs/tags/v2.10.1.zip",
+        "sha1": "769b6aa67a77f17a770960f604b727645b6f6a13",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/pybind11-769b6aa67a77f17a770960f604b727645b6f6a13.zip",
+        "sha256": "fcf94065efcfd0a7a828bacf118fa11c43f6390d0c805e3e6342ac119f2e9976",
+        "bytes": 832204
+      },
+      {
+        "name": "pytorch_cpuinfo",
+        "url": "https://github.com/pytorch/cpuinfo/archive/5916273f79a21551890fd3d56fc5375a78d1598d.zip",
+        "sha1": "2be4d2ae321fada97cb39eaf4eeba5f8c85597cf",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/pytorch_cpuinfo-2be4d2ae321fada97cb39eaf4eeba5f8c85597cf.zip",
+        "sha256": "2a160c527d3c58085ce260f34f9e2b161adc009b34186a2baf24e74376e89e6d",
+        "bytes": 3787933
+      },
+      {
+        "name": "re2",
+        "url": "https://github.com/google/re2/archive/refs/tags/2022-06-01.zip",
+        "sha1": "aa77313b76e91b531ee7f3e45f004c6a502a5374",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/re2-aa77313b76e91b531ee7f3e45f004c6a502a5374.zip",
+        "sha256": "9f3b65f2e0c78253fcfdfce1754172b0f97ffdb643ee5fd67f0185acf91a3f28",
+        "bytes": 438194
+      },
+      {
+        "name": "safeint",
+        "url": "https://github.com/dcleblanc/SafeInt/archive/ff15c6ada150a5018c5ef2172401cb4529eac9c0.zip",
+        "sha1": "913a4046e5274d329af2806cb53194f617d8c0ab",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/safeint-913a4046e5274d329af2806cb53194f617d8c0ab.zip",
+        "sha256": "f5c50f35aed63c9ddab90cb74be31e2ef0d9377452df0265546e8a8afe7d5f2f",
+        "bytes": 599164
+      },
+      {
+        "name": "tensorboard",
+        "url": "https://github.com/tensorflow/tensorboard/archive/373eb09e4c5d2b3cc2493f0949dc4be6b6a45e81.zip",
+        "sha1": "67b833913605a4f3f499894ab11528a702c2b381",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/tensorboard-67b833913605a4f3f499894ab11528a702c2b381.zip",
+        "sha256": "c7c77b30e7056dc77c067ec70fce24e80a927522b973ebefac33888ba18b5a7d",
+        "bytes": 76560689
+      },
+      {
+        "name": "cutlass",
+        "url": "https://github.com/NVIDIA/cutlass/archive/refs/tags/v2.11.0.zip",
+        "sha1": "be70c559f07251ba7f33c789dba98872b444c10f",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/cutlass-be70c559f07251ba7f33c789dba98872b444c10f.zip",
+        "sha256": "1015e528202eed3affe3f90fed666b8b5767996abdb3367e76510ad67179b2ed",
+        "bytes": 21915270
+      },
+      {
+        "name": "openssl",
+        "url": "https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.7.zip",
+        "sha1": "dda8fc81308555410505eb4a9eab3e1da0436a1d",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/openssl-dda8fc81308555410505eb4a9eab3e1da0436a1d.zip",
+        "sha256": "fcb37203c6bf7376cfd3aeb0be057937b7611e998b6c0d664abde928c8af3eb7",
+        "bytes": 18006711
+      },
+      {
+        "name": "rapidjson",
+        "url": "https://github.com/Tencent/rapidjson/archive/refs/tags/v1.1.0.zip",
+        "sha1": "0fe7b4f7b83df4b3d517f4a202f3a383af7a0818",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/rapidjson-0fe7b4f7b83df4b3d517f4a202f3a383af7a0818.zip",
+        "sha256": "8e00c38829d6785a2dfb951bb87c6974fa07dfe488aa5b25deec4b8bc0f6a3ab",
+        "bytes": 1145513
+      },
+      {
+        "name": "boost",
+        "url": "https://github.com/boostorg/boost/archive/refs/tags/boost-1.81.0.zip",
+        "sha1": "f6ab0da855f825b4eb1abd949967d01a4c5e4e1b",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/boost-f6ab0da855f825b4eb1abd949967d01a4c5e4e1b.zip",
+        "sha256": "17b84e5688ddfcb1f2112ba6d6ea256468eeab9218f584344b6f297506e847b3",
+        "bytes": 916883
+      },
+      {
+        "name": "b64",
+        "url": "https://github.com/libb64/libb64/archive/refs/tags/v2.0.0.1.zip",
+        "sha1": "815b6d31d50d9e63df55b25ce555e7b787153c28",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/b64-815b6d31d50d9e63df55b25ce555e7b787153c28.zip",
+        "sha256": "0c3d3d37a025785efbb7ea95aa7960c666c6f47e70270c45722cf1e6be2ebf86",
+        "bytes": 25182
+      },
+      {
+        "name": "triton",
+        "url": "https://github.com/triton-inference-server/server/archive/refs/tags/v2.28.0.zip",
+        "sha1": "4b305570aa1e889946e20e36050b6770e4108fee",
+        "path": "/home/hermes/typesense/retrieval-study/builds/onnx-archives/triton-4b305570aa1e889946e20e36050b6770e4108fee.zip",
+        "sha256": "ddda8f7f6a51534095eee5a237ddb22c59432752c3d67bf7cc9581260415286d",
+        "bytes": 9090843
+      }
+    ]
+  },
+  "exit_code": 1,
+  "source_after": {
+    "head": "5dbf03ca8d44845746562cf59487698eb73161b9",
+    "status": "",
+    "diff": ""
+  },
+  "build_compatibility_after": {
+    "config": {
+      "recorded_at_utc": "2026-10-28T12:03:01.235131+00:00",
+      "dependency": "elfutils 0.191",
+      "archive_sha256": "df76db71366d1d708365fc7a6c60ca48398f14367eb2b8954efc8897147ad871",
+      "patch": "patches/build-compat/elfutils-0.191-glibc-2.43-const.patch",
+      "patch_sha256": "65624e3244593c01f6cb2783c6107b8be8c5a5841b0abd6c880c2240f96620f3",
+      "rationale": "glibc 2.43 enables qualifier-generic bsearch with _GNU_SOURCE; the constant CSR table is read only, so its lookup result must retain const.",
+      "reference": "https://sourceware.org/glibc/manual/2.43/html_node/Array-Search-Function.html",
+      "scope": "Build compatibility only; no warning suppression or search algorithm change.",
+      "files": [
+        {
+          "path": "/home/hermes/typesense/retrieval-study/builds/bazel/638ad4cd0d20625d0f6007127e39fb91/external/elfutils/libcpu/riscv_disasm.c",
+          "before_sha256": "6732b1981da6d12dd3258700999f29dc3b51cdf0a1f4b8ca0f35fc9445231522",
+          "after_sha256": "2cf0844d7bef88b761b6123eef7d1d85be36c678daa517023720d092434e8bb4"
+        }
+      ]
+    },
+    "files": [
+      {
+        "path": "/home/hermes/typesense/retrieval-study/builds/bazel/638ad4cd0d20625d0f6007127e39fb91/external/elfutils/libcpu/riscv_disasm.c",
+        "sha256": "2cf0844d7bef88b761b6123eef7d1d85be36c678daa517023720d092434e8bb4"
+      }
+    ],
+    "valid": true
+  },
+  "provenance_valid": true,
+  "finished_at_utc": "2026-10-28T12:04:19.771537+00:00"
+}

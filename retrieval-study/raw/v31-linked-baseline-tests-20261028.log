@@ -1,0 +1,134 @@
+Note: Google Test filter = ArtTest.*:ArtTraversalCutoffTest.*
+[==========] Running 47 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 44 tests from ArtTest
+[ RUN      ] ArtTest.test_art_init_and_destroy
+[       OK ] ArtTest.test_art_init_and_destroy (0 ms)
+[ RUN      ] ArtTest.test_art_insert
+[       OK ] ArtTest.test_art_insert (58 ms)
+[ RUN      ] ArtTest.test_art_insert_verylong
+[       OK ] ArtTest.test_art_insert_verylong (0 ms)
+[ RUN      ] ArtTest.test_art_insert_search
+[       OK ] ArtTest.test_art_insert_search (64 ms)
+[ RUN      ] ArtTest.test_art_insert_delete
+[       OK ] ArtTest.test_art_insert_delete (73 ms)
+[ RUN      ] ArtTest.test_art_insert_iter
+[       OK ] ArtTest.test_art_insert_iter (50 ms)
+[ RUN      ] ArtTest.test_art_iter_prefix
+[       OK ] ArtTest.test_art_iter_prefix (0 ms)
+[ RUN      ] ArtTest.test_art_long_prefix
+[       OK ] ArtTest.test_art_long_prefix (0 ms)
+[ RUN      ] ArtTest.test_art_insert_search_uuid
+[       OK ] ArtTest.test_art_insert_search_uuid (34 ms)
+[ RUN      ] ArtTest.test_art_max_prefix_len_scan_prefix
+[       OK ] ArtTest.test_art_max_prefix_len_scan_prefix (0 ms)
+[ RUN      ] ArtTest.test_art_prefix_iter_out_of_bounds
+[       OK ] ArtTest.test_art_prefix_iter_out_of_bounds (0 ms)
+[ RUN      ] ArtTest.test_art_search_out_of_bounds
+[       OK ] ArtTest.test_art_search_out_of_bounds (0 ms)
+[ RUN      ] ArtTest.test_art_delete_out_of_bounds
+[       OK ] ArtTest.test_art_delete_out_of_bounds (0 ms)
+[ RUN      ] ArtTest.test_art_insert_multiple_ids_for_same_token
+[       OK ] ArtTest.test_art_insert_multiple_ids_for_same_token (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_single_leaf
+[       OK ] ArtTest.test_art_fuzzy_search_single_leaf (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_single_leaf_prefix
+[       OK ] ArtTest.test_art_fuzzy_search_single_leaf_prefix (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_single_leaf_qlen_greater_than_key
+[       OK ] ArtTest.test_art_fuzzy_search_single_leaf_qlen_greater_than_key (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_single_leaf_non_prefix
+[       OK ] ArtTest.test_art_fuzzy_search_single_leaf_non_prefix (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_short_query
+[       OK ] ArtTest.test_art_fuzzy_search_short_query (0 ms)
+[ RUN      ] ArtTest.test_art_prefix_larger_than_key
+[       OK ] ArtTest.test_art_prefix_larger_than_key (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_prefix_token_ordering
+[       OK ] ArtTest.test_art_fuzzy_search_prefix_token_ordering (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20261028 20:35:06.016309 162884 art_test.cpp:877] Time taken for: 5ms
+[       OK ] ArtTest.test_art_fuzzy_search (51 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_unicode_chars
+[       OK ] ArtTest.test_art_fuzzy_search_unicode_chars (0 ms)
+[ RUN      ] ArtTest.test_art_fuzzy_search_extra_chars
+[       OK ] ArtTest.test_art_fuzzy_search_extra_chars (0 ms)
+[ RUN      ] ArtTest.test_art_search_sku_like_tokens
+[       OK ] ArtTest.test_art_search_sku_like_tokens (1 ms)
+[ RUN      ] ArtTest.test_art_search_ill_like_tokens
+[       OK ] ArtTest.test_art_search_ill_like_tokens (0 ms)
+[ RUN      ] ArtTest.test_art_search_ill_like_tokens2
+[       OK ] ArtTest.test_art_search_ill_like_tokens2 (0 ms)
+[ RUN      ] ArtTest.test_art_search_roche_chews
+[       OK ] ArtTest.test_art_search_roche_chews (0 ms)
+[ RUN      ] ArtTest.test_art_search_raspberry
+[       OK ] ArtTest.test_art_search_raspberry (0 ms)
+[ RUN      ] ArtTest.test_art_search_highliving
+[       OK ] ArtTest.test_art_search_highliving (0 ms)
+[ RUN      ] ArtTest.test_encode_int32
+[       OK ] ArtTest.test_encode_int32 (0 ms)
+[ RUN      ] ArtTest.test_int32_overlap
+[       OK ] ArtTest.test_int32_overlap (0 ms)
+[ RUN      ] ArtTest.test_int32_range_hundreds
+[       OK ] ArtTest.test_int32_range_hundreds (0 ms)
+[ RUN      ] ArtTest.test_int32_duplicates
+[       OK ] ArtTest.test_int32_duplicates (1 ms)
+[ RUN      ] ArtTest.test_int32_negative
+[       OK ] ArtTest.test_int32_negative (0 ms)
+[ RUN      ] ArtTest.test_int32_million
+[       OK ] ArtTest.test_int32_million (143 ms)
+[ RUN      ] ArtTest.test_int_range_byte_boundary
+[       OK ] ArtTest.test_int_range_byte_boundary (0 ms)
+[ RUN      ] ArtTest.test_encode_int64
+[       OK ] ArtTest.test_encode_int64 (0 ms)
+[ RUN      ] ArtTest.test_search_int64
+[       OK ] ArtTest.test_search_int64 (0 ms)
+[ RUN      ] ArtTest.test_search_negative_int64
+[       OK ] ArtTest.test_search_negative_int64 (0 ms)
+[ RUN      ] ArtTest.test_search_negative_int64_large
+[       OK ] ArtTest.test_search_negative_int64_large (0 ms)
+[ RUN      ] ArtTest.test_int32_array
+[       OK ] ArtTest.test_int32_array (0 ms)
+[ RUN      ] ArtTest.test_encode_float_positive
+[       OK ] ArtTest.test_encode_float_positive (0 ms)
+[ RUN      ] ArtTest.test_encode_float_positive_negative
+[       OK ] ArtTest.test_encode_float_positive_negative (0 ms)
+[----------] 44 tests from ArtTest (481 ms total)
+
+[----------] 3 tests from ArtTraversalCutoffTest
+[ RUN      ] ArtTraversalCutoffTest.ChecksDeadlineWhileExpandingInternalNodes
+/home/hermes/typesense/retrieval-study/patches/art_traversal_cutoff_test.cpp:59: Failure
+Value of: search_cutoff
+  Actual: false
+Expected: true
+/home/hermes/typesense/retrieval-study/patches/art_traversal_cutoff_test.cpp:60: Failure
+Value of: results.empty()
+  Actual: false
+Expected: true
+[  FAILED  ] ArtTraversalCutoffTest.ChecksDeadlineWhileExpandingInternalNodes (1 ms)
+[ RUN      ] ArtTraversalCutoffTest.SubsequentQueryWithNewBudgetStillReturnsCandidates
+/home/hermes/typesense/retrieval-study/patches/art_traversal_cutoff_test.cpp:66: Failure
+Value of: search_cutoff
+  Actual: false
+Expected: true
+[  FAILED  ] ArtTraversalCutoffTest.SubsequentQueryWithNewBudgetStillReturnsCandidates (1 ms)
+[ RUN      ] ArtTraversalCutoffTest.IteratorEntryPointChecksInternalNodeDeadline
+/home/hermes/typesense/retrieval-study/patches/art_traversal_cutoff_test.cpp:85: Failure
+Value of: search_cutoff
+  Actual: false
+Expected: true
+/home/hermes/typesense/retrieval-study/patches/art_traversal_cutoff_test.cpp:86: Failure
+Value of: results.empty()
+  Actual: false
+Expected: true
+[  FAILED  ] ArtTraversalCutoffTest.IteratorEntryPointChecksInternalNodeDeadline (1 ms)
+[----------] 3 tests from ArtTraversalCutoffTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 47 tests from 2 test suites ran. (486 ms total)
+[  PASSED  ] 44 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] ArtTraversalCutoffTest.ChecksDeadlineWhileExpandingInternalNodes
+[  FAILED  ] ArtTraversalCutoffTest.SubsequentQueryWithNewBudgetStillReturnsCandidates
+[  FAILED  ] ArtTraversalCutoffTest.IteratorEntryPointChecksInternalNodeDeadline
+
+ 3 FAILED TESTS

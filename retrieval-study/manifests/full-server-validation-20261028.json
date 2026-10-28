@@ -1,0 +1,113 @@
+{
+  "recorded_at_utc": "2026-10-28T12:47:09.205010+00:00",
+  "source_commit": "5dbf03ca8d44845746562cf59487698eb73161b9",
+  "patch_sha256": "2403af35ac2d3eb721a72ce00a5c3f0b3aeb7008a9f2cc468d77f6e0868bc217",
+  "baseline_binary_sha256": "61baba82bf5f5a50c919f5d65c71085cd9443781cd3757325cad35d0a3e42fa4",
+  "candidate_binary_sha256": "e78c5d71ef6e84d1d264ebcc069e60040ef68556c0332484a210a7119fdea774",
+  "source_builds_passed": true,
+  "same_build_commands": true,
+  "same_common_dependency_configuration": true,
+  "linked_art_tests": {
+    "original_upstream_passed": 44,
+    "baseline_new_regressions_failed_as_expected": 3,
+    "candidate_passed": 47,
+    "iterator_entry_point_executed": true,
+    "scope": "Real production objects; focused ART integration, not the entire C++ suite."
+  },
+  "service_difference": {
+    "compared": 109,
+    "differences": [],
+    "passed": true,
+    "deadline_policy": "Verify explicit cutoff/408; do not require identical partial hits."
+  },
+  "query_matrix_difference": {
+    "left_requests": 234,
+    "right_requests": 234,
+    "differences": [],
+    "passed": true
+  },
+  "independent_oracle": {
+    "service_checks_per_variant": 24,
+    "query_matrix_checks_per_variant": 9
+  },
+  "deadline_difference": {
+    "passed": true,
+    "differences": [],
+    "compared": 55,
+    "ordinary_controls_compared": 15,
+    "finite_budget_pairs": 40,
+    "scope": "Small sequential HTTP diagnostic; no throughput, percentile, or stable speedup claim."
+  },
+  "deadline_observations": {
+    "fixture_initial_documents": 98304,
+    "deleted_high_score_documents": 32768,
+    "live_documents": 65536,
+    "samples_per_case_per_variant": 5,
+    "unfiltered_1ms_budget": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 8.470961,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 1.643051,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "filtered_1ms_budget": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 7.600676,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 1.596004,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "interpretation": "Diagnostic only; client elapsed time includes transport. No formal speedup, hard time bound or percentile claim."
+  },
+  "tool_tests_passed": 16,
+  "pending": [
+    "Complete upstream C++ suite and broader shared-path regressions",
+    "Explicit lazy-filter, JOIN and short-deadline curation combinations",
+    "Randomised and concurrent mixed-load validation",
+    "Controlled alternating performance trials with sufficient samples and resource accounting",
+    "Upstream review"
+  ],
+  "production_link_inputs_compared": 736,
+  "changed_production_link_inputs": [
+    "bazel-out/k8-fastbuild/bin/_objs/typesense-server/art.pic.o"
+  ],
+  "same_onnx_download_cache_configuration": true
+}

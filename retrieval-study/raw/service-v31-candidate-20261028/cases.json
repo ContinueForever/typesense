@@ -1,0 +1,522 @@
+[
+  {
+    "id": "none-k1",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 1,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  },
+  {
+    "id": "none-k4",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 4,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  },
+  {
+    "id": "none-k128",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": true
+  },
+  {
+    "id": "target-k1",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 1,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=target"
+    },
+    "oracle": false
+  },
+  {
+    "id": "target-k4",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 4,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=target"
+    },
+    "oracle": false
+  },
+  {
+    "id": "target-k128",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=target"
+    },
+    "oracle": true
+  },
+  {
+    "id": "absent-k1",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 1,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=absent"
+    },
+    "oracle": false
+  },
+  {
+    "id": "absent-k4",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 4,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=absent"
+    },
+    "oracle": false
+  },
+  {
+    "id": "absent-k128",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=absent"
+    },
+    "oracle": true
+  },
+  {
+    "id": "or-k1",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 1,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=target || arc:=true"
+    },
+    "oracle": false
+  },
+  {
+    "id": "or-k4",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 4,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=target || arc:=true"
+    },
+    "oracle": false
+  },
+  {
+    "id": "or-k128",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=target || arc:=true"
+    },
+    "oracle": false
+  },
+  {
+    "id": "exact",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "false",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": true
+  },
+  {
+    "id": "no-prefix-match",
+    "params": {
+      "q": "777",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": true
+  },
+  {
+    "id": "page-two",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 2,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": true
+  },
+  {
+    "id": "business-sort",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "arc:asc,uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  },
+  {
+    "id": "text-score",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "_text_match:desc,uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  },
+  {
+    "id": "hidden",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "hidden_hits": "d00,d01"
+    },
+    "oracle": false
+  },
+  {
+    "id": "pinned-empty-filter",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=absent",
+      "pinned_hits": "d00:1",
+      "filter_curated_hits": "false"
+    },
+    "oracle": false
+  },
+  {
+    "id": "pinned-respects-filter",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "filter_by": "orgId:=absent",
+      "pinned_hits": "d00:1",
+      "filter_curated_hits": "true"
+    },
+    "oracle": false
+  },
+  {
+    "id": "facets",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "facet_by": "orgId,arc",
+      "max_facet_values": 20
+    },
+    "oracle": false
+  },
+  {
+    "id": "groups",
+    "params": {
+      "q": "918",
+      "query_by": "item_code",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000,
+      "group_by": "orgId",
+      "group_limit": 3
+    },
+    "oracle": false
+  },
+  {
+    "id": "multiple-fields",
+    "params": {
+      "q": "shared",
+      "query_by": "item_code,title",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  },
+  {
+    "id": "multiple-tokens",
+    "params": {
+      "q": "shared alp",
+      "query_by": "title",
+      "prefix": "true",
+      "num_typos": 0,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  },
+  {
+    "id": "typo",
+    "params": {
+      "q": "alhpa",
+      "query_by": "title",
+      "prefix": "true",
+      "num_typos": 1,
+      "use_cache": "false",
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "max_candidates": 128,
+      "sort_by": "uOn:desc",
+      "per_page": 5,
+      "page": 1,
+      "search_cutoff_ms": 5000
+    },
+    "oracle": false
+  }
+]

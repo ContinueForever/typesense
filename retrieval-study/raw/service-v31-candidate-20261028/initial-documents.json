@@ -1,0 +1,258 @@
+[
+  {
+    "id": "d00",
+    "orgId": "target",
+    "item_code": "918",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1000
+  },
+  {
+    "id": "d01",
+    "orgId": "target",
+    "item_code": "918000001",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1001
+  },
+  {
+    "id": "d02",
+    "orgId": "target",
+    "item_code": "918000002",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1002
+  },
+  {
+    "id": "d03",
+    "orgId": "target",
+    "item_code": "625000003",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1003
+  },
+  {
+    "id": "d04",
+    "orgId": "target",
+    "item_code": "918000004",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1004
+  },
+  {
+    "id": "d05",
+    "orgId": "target",
+    "item_code": "918000005",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1005
+  },
+  {
+    "id": "d06",
+    "orgId": "target",
+    "item_code": "625000006",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1006
+  },
+  {
+    "id": "d07",
+    "orgId": "target",
+    "item_code": "918000007",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1007
+  },
+  {
+    "id": "d08",
+    "orgId": "other",
+    "item_code": "918000008",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1008
+  },
+  {
+    "id": "d09",
+    "orgId": "other",
+    "item_code": "625000009",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1009
+  },
+  {
+    "id": "d10",
+    "orgId": "other",
+    "item_code": "918000010",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1010
+  },
+  {
+    "id": "d11",
+    "orgId": "other",
+    "item_code": "918000011",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1011
+  },
+  {
+    "id": "d12",
+    "orgId": "other",
+    "item_code": "625000012",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1012
+  },
+  {
+    "id": "d13",
+    "orgId": "other",
+    "item_code": "918000000",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1013
+  },
+  {
+    "id": "d14",
+    "orgId": "other",
+    "item_code": "918000001",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1014
+  },
+  {
+    "id": "d15",
+    "orgId": "other",
+    "item_code": "625000002",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1015
+  },
+  {
+    "id": "d16",
+    "orgId": "other",
+    "item_code": "918000003",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1016
+  },
+  {
+    "id": "d17",
+    "orgId": "other",
+    "item_code": "918000004",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1017
+  },
+  {
+    "id": "d18",
+    "orgId": "other",
+    "item_code": "625000005",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1018
+  },
+  {
+    "id": "d19",
+    "orgId": "other",
+    "item_code": "918000006",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1019
+  },
+  {
+    "id": "d20",
+    "orgId": "other",
+    "item_code": "918000007",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1020
+  },
+  {
+    "id": "d21",
+    "orgId": "other",
+    "item_code": "625000008",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1021
+  },
+  {
+    "id": "d22",
+    "orgId": "other",
+    "item_code": "918000009",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1022
+  },
+  {
+    "id": "d23",
+    "orgId": "other",
+    "item_code": "918000010",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1023
+  },
+  {
+    "id": "d24",
+    "orgId": "other",
+    "item_code": "625000011",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1024
+  },
+  {
+    "id": "d25",
+    "orgId": "other",
+    "item_code": "918000012",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1025
+  },
+  {
+    "id": "d26",
+    "orgId": "other",
+    "item_code": "918000000",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1026
+  },
+  {
+    "id": "d27",
+    "orgId": "other",
+    "item_code": "625000001",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1027
+  },
+  {
+    "id": "d28",
+    "orgId": "other",
+    "item_code": "918000002",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1028
+  },
+  {
+    "id": "d29",
+    "orgId": "other",
+    "item_code": "918000003",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1029
+  },
+  {
+    "id": "d30",
+    "orgId": "other",
+    "item_code": "625000004",
+    "title": "shared beta item",
+    "arc": true,
+    "uOn": 1030
+  },
+  {
+    "id": "d31",
+    "orgId": "other",
+    "item_code": "918000005",
+    "title": "shared alpha item",
+    "arc": false,
+    "uOn": 1031
+  }
+]

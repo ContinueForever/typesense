@@ -1,0 +1,296 @@
+{
+  "passed": true,
+  "differences": [],
+  "compared": 55,
+  "ordinary_controls_compared": 15,
+  "finite_budget_pairs": 40,
+  "diagnostic_samples": {
+    "exact-recovery": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 0.816135,
+        "engine_ms": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 0.741982,
+        "engine_ms": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "target-budget-1": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 7.600676,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 1.596004,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "target-budget-2": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 7.807372,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 2.530555,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "target-budget-20": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 1,
+        "median_elapsed_ms": 18.444945,
+        "engine_ms": [
+          16,
+          16,
+          17,
+          18,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 18.28081,
+        "engine_ms": [
+          17,
+          20,
+          17,
+          17,
+          17
+        ]
+      }
+    },
+    "target-budget-5": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 8.406028,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 5.575609,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "target-budget-5000": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 18.124856,
+        "engine_ms": [
+          15,
+          15,
+          17,
+          28,
+          17
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 17.381074,
+        "engine_ms": [
+          16,
+          16,
+          17,
+          15,
+          16
+        ]
+      }
+    },
+    "unfiltered-budget-1": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 8.470961,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 1.643051,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "unfiltered-budget-2": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 7.760952,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 2.522703,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "unfiltered-budget-20": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 7.357651,
+        "engine_ms": [
+          6,
+          6,
+          7,
+          6,
+          9
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 7.824155,
+        "engine_ms": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      }
+    },
+    "unfiltered-budget-5": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 7.459818,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 5,
+        "median_elapsed_ms": 5.552031,
+        "engine_ms": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "unfiltered-budget-5000": {
+      "baseline": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 7.636066,
+        "engine_ms": [
+          6,
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      "candidate": {
+        "samples": 5,
+        "explicit_cutoffs": 0,
+        "median_elapsed_ms": 7.575528,
+        "engine_ms": [
+          6,
+          7,
+          7,
+          7,
+          6
+        ]
+      }
+    }
+  },
+  "scope": "Small sequential HTTP diagnostic; no throughput, percentile, or stable speedup claim."
+}

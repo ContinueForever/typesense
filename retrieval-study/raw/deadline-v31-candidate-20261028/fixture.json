@@ -1,0 +1,8 @@
+{
+  "groups": 32768,
+  "repeats": 5,
+  "initial_documents": 98304,
+  "live_documents": 65536,
+  "generator_sha256": "48a049c49943fd280b16631eae086bf9038d8588aea7cf73d2a9a093cff33206",
+  "note": "Delete each highest-scoring sibling; preserve two low-scoring sibling terms."
+}

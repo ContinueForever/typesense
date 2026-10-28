@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "failures": [],
+  "requests": 55,
+  "cases": {
+    "exact-recovery": {
+      "samples": 5,
+      "outcomes": {
+        "success": 5
+      },
+      "median_elapsed_ms": 0.741982,
+      "engine_ms": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "target-budget-1": {
+      "samples": 5,
+      "outcomes": {
+        "http_error": 5
+      },
+      "median_elapsed_ms": 1.596004,
+      "engine_ms": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "target-budget-2": {
+      "samples": 5,
+      "outcomes": {
+        "http_error": 5
+      },
+      "median_elapsed_ms": 2.530555,
+      "engine_ms": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "target-budget-20": {
+      "samples": 5,
+      "outcomes": {
+        "success": 5
+      },
+      "median_elapsed_ms": 18.28081,
+      "engine_ms": [
+        17,
+        20,
+        17,
+        17,
+        17
+      ]
+    },
+    "target-budget-5": {
+      "samples": 5,
+      "outcomes": {
+        "http_error": 5
+      },
+      "median_elapsed_ms": 5.575609,
+      "engine_ms": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "target-budget-5000": {
+      "samples": 5,
+      "outcomes": {
+        "success": 5
+      },
+      "median_elapsed_ms": 17.381074,
+      "engine_ms": [
+        16,
+        16,
+        17,
+        15,
+        16
+      ]
+    },
+    "unfiltered-budget-1": {
+      "samples": 5,
+      "outcomes": {
+        "http_error": 5
+      },
+      "median_elapsed_ms": 1.643051,
+      "engine_ms": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "unfiltered-budget-2": {
+      "samples": 5,
+      "outcomes": {
+        "http_error": 5
+      },
+      "median_elapsed_ms": 2.522703,
+      "engine_ms": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "unfiltered-budget-20": {
+      "samples": 5,
+      "outcomes": {
+        "success": 5
+      },
+      "median_elapsed_ms": 7.824155,
+      "engine_ms": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    "unfiltered-budget-5": {
+      "samples": 5,
+      "outcomes": {
+        "http_error": 5
+      },
+      "median_elapsed_ms": 5.552031,
+      "engine_ms": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "unfiltered-budget-5000": {
+      "samples": 5,
+      "outcomes": {
+        "success": 5
+      },
+      "median_elapsed_ms": 7.575528,
+      "engine_ms": [
+        6,
+        7,
+        7,
+        7,
+        6
+      ]
+    }
+  },
+  "resources": {
+    "recorded_at_utc": "2026-10-28T12:42:30.089555+00:00",
+    "status": {
+      "VmHWM": "143916 kB",
+      "VmRSS": "143916 kB",
+      "VmSwap": "0 kB",
+      "Threads": "54"
+    },
+    "user_cpu_seconds": 3.02,
+    "system_cpu_seconds": 0.21
+  },
+  "scope": "HTTP diagnostic with controlled deletes; not a formal throughput or percentile benchmark."
+}

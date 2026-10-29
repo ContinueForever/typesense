@@ -1,0 +1,12 @@
+{
+  "documents": 32768,
+  "wide_matches": 28672,
+  "numeric_matches": 32768,
+  "source_files": [
+    "include/filter.h",
+    "include/filter_result_iterator.h",
+    "src/filter_result_iterator.cpp",
+    "src/index.cpp"
+  ],
+  "qualification": "Source-derived thresholds; no additional tracing in measured production binaries"
+}

@@ -1,0 +1,386 @@
+{
+  "passed": true,
+  "failures": [],
+  "planned": 30,
+  "recorded": 30,
+  "rounds": [
+    {
+      "index": 0,
+      "variant": "A",
+      "planned": 15,
+      "recorded": 15,
+      "elapsed_seconds": 0.018782046000069386,
+      "completed_closed_loop_per_second": 798.6350368828074,
+      "server_cpu_seconds": 0.010000000000000009,
+      "client_cpu_seconds": 0.0064269999999999605,
+      "cases": {
+        "unfiltered-short": {
+          "samples": 3,
+          "median_ms": 0.899883,
+          "min_ms": 0.883638,
+          "max_ms": 1.318547,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "unfiltered-full": {
+          "samples": 3,
+          "median_ms": 0.910015,
+          "min_ms": 0.896762,
+          "max_ms": 0.934502,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "target-short": {
+          "samples": 3,
+          "median_ms": 1.352383,
+          "min_ms": 1.248146,
+          "max_ms": 1.394537,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "target-full": {
+          "samples": 3,
+          "median_ms": 1.948179,
+          "min_ms": 1.582321,
+          "max_ms": 2.413461,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "exact": {
+          "samples": 3,
+          "median_ms": 0.587389,
+          "min_ms": 0.578246,
+          "max_ms": 0.711348,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        }
+      },
+      "writes": {
+        "create": {
+          "samples": 2,
+          "median_ms": 1.7490100000000002,
+          "min_ms": 1.582178,
+          "max_ms": 1.915842,
+          "outcomes": {
+            "success": 2
+          },
+          "statuses": {
+            "201": 2
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "update": {
+          "samples": 2,
+          "median_ms": 1.301675,
+          "min_ms": 1.040408,
+          "max_ms": 1.562942,
+          "outcomes": {
+            "success": 2
+          },
+          "statuses": {
+            "201": 2
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "delete": {
+          "samples": 2,
+          "median_ms": 0.9981285,
+          "min_ms": 0.985747,
+          "max_ms": 1.01051,
+          "outcomes": {
+            "success": 2
+          },
+          "statuses": {
+            "200": 2
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        }
+      },
+      "write_requests": 6,
+      "write_server_cpu_seconds": 0.010000000000000002
+    },
+    {
+      "index": 1,
+      "variant": "B",
+      "planned": 15,
+      "recorded": 15,
+      "elapsed_seconds": 0.018360339000082604,
+      "completed_closed_loop_per_second": 816.9783793170984,
+      "server_cpu_seconds": 0.009999999999999981,
+      "client_cpu_seconds": 0.006582000000000088,
+      "cases": {
+        "unfiltered-short": {
+          "samples": 3,
+          "median_ms": 0.998351,
+          "min_ms": 0.831653,
+          "max_ms": 1.047079,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "unfiltered-full": {
+          "samples": 3,
+          "median_ms": 0.969642,
+          "min_ms": 0.878492,
+          "max_ms": 0.969973,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "target-short": {
+          "samples": 3,
+          "median_ms": 1.385136,
+          "min_ms": 1.26779,
+          "max_ms": 1.505327,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "target-full": {
+          "samples": 3,
+          "median_ms": 1.325161,
+          "min_ms": 1.199675,
+          "max_ms": 1.350027,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "exact": {
+          "samples": 3,
+          "median_ms": 0.575158,
+          "min_ms": 0.472374,
+          "max_ms": 0.692887,
+          "outcomes": {
+            "success": 3
+          },
+          "statuses": {
+            "200": 3
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        }
+      },
+      "writes": {
+        "create": {
+          "samples": 2,
+          "median_ms": 1.9434025,
+          "min_ms": 1.624539,
+          "max_ms": 2.262266,
+          "outcomes": {
+            "success": 2
+          },
+          "statuses": {
+            "201": 2
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "update": {
+          "samples": 2,
+          "median_ms": 1.0108505,
+          "min_ms": 0.953406,
+          "max_ms": 1.068295,
+          "outcomes": {
+            "success": 2
+          },
+          "statuses": {
+            "201": 2
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        },
+        "delete": {
+          "samples": 2,
+          "median_ms": 0.9273415,
+          "min_ms": 0.875945,
+          "max_ms": 0.978738,
+          "outcomes": {
+            "success": 2
+          },
+          "statuses": {
+            "200": 2
+          },
+          "population": "All recorded client completions, including explicit cutoffs and transport failures"
+        }
+      },
+      "write_requests": 6,
+      "write_server_cpu_seconds": 0.0
+    }
+  ],
+  "aggregate": {
+    "A": {
+      "unfiltered-short": {
+        "samples": 3,
+        "median_ms": 0.899883,
+        "min_ms": 0.883638,
+        "max_ms": 1.318547,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "unfiltered-full": {
+        "samples": 3,
+        "median_ms": 0.910015,
+        "min_ms": 0.896762,
+        "max_ms": 0.934502,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "target-short": {
+        "samples": 3,
+        "median_ms": 1.352383,
+        "min_ms": 1.248146,
+        "max_ms": 1.394537,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "target-full": {
+        "samples": 3,
+        "median_ms": 1.948179,
+        "min_ms": 1.582321,
+        "max_ms": 2.413461,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "exact": {
+        "samples": 3,
+        "median_ms": 0.587389,
+        "min_ms": 0.578246,
+        "max_ms": 0.711348,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      }
+    },
+    "B": {
+      "unfiltered-short": {
+        "samples": 3,
+        "median_ms": 0.998351,
+        "min_ms": 0.831653,
+        "max_ms": 1.047079,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "unfiltered-full": {
+        "samples": 3,
+        "median_ms": 0.969642,
+        "min_ms": 0.878492,
+        "max_ms": 0.969973,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "target-short": {
+        "samples": 3,
+        "median_ms": 1.385136,
+        "min_ms": 1.26779,
+        "max_ms": 1.505327,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "target-full": {
+        "samples": 3,
+        "median_ms": 1.325161,
+        "min_ms": 1.199675,
+        "max_ms": 1.350027,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      },
+      "exact": {
+        "samples": 3,
+        "median_ms": 0.575158,
+        "min_ms": 0.472374,
+        "max_ms": 0.692887,
+        "outcomes": {
+          "success": 3
+        },
+        "statuses": {
+          "200": 3
+        },
+        "population": "All recorded client completions, including explicit cutoffs and transport failures"
+      }
+    }
+  },
+  "model": "Serial closed loop; one client CPU and two server CPUs on the same desktop VM. Other host work is observed, not excluded.",
+  "exclusions": "No independent service capacity, production tail latency, physical CPU isolation or hard deadline guarantee."
+}

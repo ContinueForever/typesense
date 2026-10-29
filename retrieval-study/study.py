@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import collections
 import contextlib
+import gzip
 import datetime as dt
 import hashlib
 import json
@@ -190,7 +191,7 @@ def unused_port():
 
 
 @contextlib.contextmanager
-def owned_server(binary, output, timeout):
+def owned_server(binary, output, timeout, cpu_set=None):
     output = Path(output)
     data = output / "server-data"
     data.mkdir()
@@ -201,6 +202,10 @@ def owned_server(binary, output, timeout):
     command = [str(Path(binary).resolve()), "--data-dir", str(data.resolve()), "--api-key", key,
                "--api-address", "127.0.0.1", "--api-port", str(api_port),
                "--peering-address", "127.0.0.1", "--peering-port", str(peer_port), "--thread-pool-size", "2"]
+    if cpu_set is not None:
+        if not cpu_set or not set(cpu_set) <= os.sched_getaffinity(0):
+            raise ValueError("Server CPU set must be nonempty and available to this process")
+        command = ["taskset", "--cpu-list", ",".join(str(cpu) for cpu in sorted(cpu_set))] + command
     save_json(output / "server.json", {"command": ["<ephemeral-key>" if x == key else x for x in command],
                                       "ownership": "Only this Popen child is terminated."})
     log = (output / "server.log").open("w")
@@ -273,7 +278,11 @@ def sample(client, path, case):
 
 
 def jsonl(path):
-    with Path(path).open() as stream:
+    path = Path(path)
+    if not path.exists() and Path(str(path) + '.gz').exists():
+        path = Path(str(path) + '.gz')
+    opener = gzip.open if path.suffix == '.gz' else open
+    with opener(path, 'rt') as stream:
         for line in stream:
             if line.strip():
                 yield json.loads(line)

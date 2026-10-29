@@ -1,0 +1,3120 @@
+{
+  "query_id": "recovery/0",
+  "params": {
+    "q": "918",
+    "query_by": "code",
+    "prefix": "true",
+    "num_typos": 0,
+    "enable_synonyms": "false",
+    "split_join_tokens": "off",
+    "drop_tokens_threshold": 0,
+    "typo_tokens_threshold": 0,
+    "use_cache": "false",
+    "max_candidates": 512,
+    "sort_by": "score:desc",
+    "per_page": 64,
+    "search_cutoff_ms": 5000,
+    "filter_by": "partition:=stable"
+  },
+  "started_at_utc": "2026-10-29T02:08:26.476317+00:00",
+  "status": 200,
+  "outcome": "success",
+  "engine_ms": 4,
+  "response": {
+    "facet_counts": [],
+    "found": 64,
+    "hits": [
+      {
+        "document": {
+          "code": "918000063",
+          "id": "s063",
+          "partition": "stable",
+          "score": 63
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000063"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000063"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000062",
+          "id": "s062",
+          "partition": "stable",
+          "score": 62
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000062"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000062"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000061",
+          "id": "s061",
+          "partition": "stable",
+          "score": 61
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000061"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000061"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000060",
+          "id": "s060",
+          "partition": "stable",
+          "score": 60
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000060"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000060"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000059",
+          "id": "s059",
+          "partition": "stable",
+          "score": 59
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000059"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000059"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000058",
+          "id": "s058",
+          "partition": "stable",
+          "score": 58
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000058"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000058"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000057",
+          "id": "s057",
+          "partition": "stable",
+          "score": 57
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000057"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000057"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000056",
+          "id": "s056",
+          "partition": "stable",
+          "score": 56
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000056"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000056"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000055",
+          "id": "s055",
+          "partition": "stable",
+          "score": 55
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000055"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000055"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000054",
+          "id": "s054",
+          "partition": "stable",
+          "score": 54
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000054"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000054"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000053",
+          "id": "s053",
+          "partition": "stable",
+          "score": 53
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000053"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000053"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000052",
+          "id": "s052",
+          "partition": "stable",
+          "score": 52
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000052"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000052"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000051",
+          "id": "s051",
+          "partition": "stable",
+          "score": 51
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000051"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000051"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000050",
+          "id": "s050",
+          "partition": "stable",
+          "score": 50
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000050"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000050"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000049",
+          "id": "s049",
+          "partition": "stable",
+          "score": 49
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000049"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000049"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000048",
+          "id": "s048",
+          "partition": "stable",
+          "score": 48
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000048"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000048"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000047",
+          "id": "s047",
+          "partition": "stable",
+          "score": 47
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000047"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000047"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000046",
+          "id": "s046",
+          "partition": "stable",
+          "score": 46
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000046"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000046"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000045",
+          "id": "s045",
+          "partition": "stable",
+          "score": 45
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000045"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000045"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000044",
+          "id": "s044",
+          "partition": "stable",
+          "score": 44
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000044"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000044"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000043",
+          "id": "s043",
+          "partition": "stable",
+          "score": 43
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000043"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000043"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000042",
+          "id": "s042",
+          "partition": "stable",
+          "score": 42
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000042"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000042"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000041",
+          "id": "s041",
+          "partition": "stable",
+          "score": 41
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000041"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000041"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000040",
+          "id": "s040",
+          "partition": "stable",
+          "score": 40
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000040"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000040"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000039",
+          "id": "s039",
+          "partition": "stable",
+          "score": 39
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000039"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000039"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000038",
+          "id": "s038",
+          "partition": "stable",
+          "score": 38
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000038"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000038"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000037",
+          "id": "s037",
+          "partition": "stable",
+          "score": 37
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000037"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000037"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000036",
+          "id": "s036",
+          "partition": "stable",
+          "score": 36
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000036"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000036"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000035",
+          "id": "s035",
+          "partition": "stable",
+          "score": 35
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000035"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000035"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000034",
+          "id": "s034",
+          "partition": "stable",
+          "score": 34
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000034"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000034"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000033",
+          "id": "s033",
+          "partition": "stable",
+          "score": 33
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000033"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000033"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000032",
+          "id": "s032",
+          "partition": "stable",
+          "score": 32
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000032"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000032"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000031",
+          "id": "s031",
+          "partition": "stable",
+          "score": 31
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000031"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000031"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000030",
+          "id": "s030",
+          "partition": "stable",
+          "score": 30
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000030"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000030"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000029",
+          "id": "s029",
+          "partition": "stable",
+          "score": 29
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000029"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000029"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000028",
+          "id": "s028",
+          "partition": "stable",
+          "score": 28
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000028"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000028"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000027",
+          "id": "s027",
+          "partition": "stable",
+          "score": 27
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000027"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000027"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000026",
+          "id": "s026",
+          "partition": "stable",
+          "score": 26
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000026"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000026"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000025",
+          "id": "s025",
+          "partition": "stable",
+          "score": 25
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000025"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000025"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000024",
+          "id": "s024",
+          "partition": "stable",
+          "score": 24
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000024"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000024"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000023",
+          "id": "s023",
+          "partition": "stable",
+          "score": 23
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000023"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000023"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000022",
+          "id": "s022",
+          "partition": "stable",
+          "score": 22
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000022"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000022"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000021",
+          "id": "s021",
+          "partition": "stable",
+          "score": 21
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000021"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000021"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000020",
+          "id": "s020",
+          "partition": "stable",
+          "score": 20
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000020"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000020"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000019",
+          "id": "s019",
+          "partition": "stable",
+          "score": 19
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000019"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000019"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000018",
+          "id": "s018",
+          "partition": "stable",
+          "score": 18
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000018"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000018"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000017",
+          "id": "s017",
+          "partition": "stable",
+          "score": 17
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000017"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000017"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000016",
+          "id": "s016",
+          "partition": "stable",
+          "score": 16
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000016"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000016"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000015",
+          "id": "s015",
+          "partition": "stable",
+          "score": 15
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000015"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000015"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000014",
+          "id": "s014",
+          "partition": "stable",
+          "score": 14
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000014"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000014"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000013",
+          "id": "s013",
+          "partition": "stable",
+          "score": 13
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000013"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000013"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000012",
+          "id": "s012",
+          "partition": "stable",
+          "score": 12
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000012"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000012"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000011",
+          "id": "s011",
+          "partition": "stable",
+          "score": 11
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000011"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000011"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000010",
+          "id": "s010",
+          "partition": "stable",
+          "score": 10
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000010"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000010"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000009",
+          "id": "s009",
+          "partition": "stable",
+          "score": 9
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000009"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000009"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000008",
+          "id": "s008",
+          "partition": "stable",
+          "score": 8
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000008"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000008"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000007",
+          "id": "s007",
+          "partition": "stable",
+          "score": 7
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000007"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000007"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000006",
+          "id": "s006",
+          "partition": "stable",
+          "score": 6
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000006"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000006"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000005",
+          "id": "s005",
+          "partition": "stable",
+          "score": 5
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000005"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000005"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000004",
+          "id": "s004",
+          "partition": "stable",
+          "score": 4
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000004"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000004"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000003",
+          "id": "s003",
+          "partition": "stable",
+          "score": 3
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000003"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000003"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000002",
+          "id": "s002",
+          "partition": "stable",
+          "score": 2
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000002"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000002"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000001",
+          "id": "s001",
+          "partition": "stable",
+          "score": 1
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000001"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000001"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "document": {
+          "code": "918000000",
+          "id": "s000",
+          "partition": "stable",
+          "score": 0
+        },
+        "highlight": {
+          "code": {
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000000"
+          }
+        },
+        "highlights": [
+          {
+            "field": "code",
+            "matched_tokens": [
+              "918"
+            ],
+            "snippet": "<mark>918</mark>000000"
+          }
+        ],
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      }
+    ],
+    "out_of": 86,
+    "page": 1,
+    "request_params": {
+      "collection_name": "mixed_items",
+      "first_q": "918",
+      "per_page": 64,
+      "q": "918"
+    },
+    "search_cutoff": false,
+    "search_time_ms": 4
+  },
+  "normalised": {
+    "found": 64,
+    "out_of": 86,
+    "search_cutoff": false,
+    "facet_counts": [],
+    "hits": [
+      {
+        "id": "s063",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s062",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s061",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s060",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s059",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s058",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s057",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s056",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s055",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s054",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s053",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s052",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s051",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s050",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s049",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s048",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s047",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s046",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s045",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s044",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s043",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s042",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s041",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s040",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s039",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s038",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s037",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s036",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s035",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s034",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s033",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s032",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s031",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s030",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s029",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s028",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s027",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s026",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s025",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s024",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s023",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s022",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s021",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s020",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s019",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s018",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s017",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s016",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s015",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s014",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s013",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s012",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s011",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s010",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s009",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s008",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s007",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s006",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s005",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s004",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s003",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s002",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s001",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      },
+      {
+        "id": "s000",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      }
+    ]
+  },
+  "elapsed_ms": 5.93736
+}

@@ -1,0 +1,1645 @@
+{
+  "dataset": "/home/hermes/typesense/retrieval-study/data/pinned-examples-20261029",
+  "dataset_manifest": {
+    "source_commit": "5dbf03ca8d44845746562cf59487698eb73161b9",
+    "sources": [
+      {
+        "path": "test/documents.jsonl",
+        "sha256": "475ed416c578c0dc55391fa2d77143c7fad04dc7091fdfd0e63b30f620c7145e",
+        "documents": 24
+      },
+      {
+        "path": "test/multi_field_documents.jsonl",
+        "sha256": "e8962e9e594b1dab7da2ecb1193de60c177882bbdf4b9a729b8b7bb8cce257d2",
+        "documents": 18
+      },
+      {
+        "path": "test/resources/hnstories.jsonl.gz",
+        "sha256": "06eaf579a1bdffe74660b04734066e489ccd04babf39848ba9ce75767a3aac04",
+        "documents": 14
+      }
+    ],
+    "config": {
+      "documents": 56
+    },
+    "documents_sha256": "b1019618e2a81721ddba361079aa4b3e67ab80ae9688e4a1f5c1279d5c639a91",
+    "content_digest": {
+      "count": 56,
+      "sha256_sum_mod_2_256": "f32533f30b98e5121985bfc5d1aed154a65ee575dd17cf832513ca6bed980779"
+    },
+    "note": "Pinned upstream example text, not a representative production corpus. Title and points are retained; synthetic stable IDs/rank/family are added."
+  },
+  "queries": [
+    {
+      "id": "example-0-1-false",
+      "params": {
+        "q": "s",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-0-1-true",
+      "params": {
+        "q": "s",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-0-4-false",
+      "params": {
+        "q": "s",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-0-4-true",
+      "params": {
+        "q": "s",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-0-512-false",
+      "params": {
+        "q": "s",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-0-512-true",
+      "params": {
+        "q": "s",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-1-1-false",
+      "params": {
+        "q": "so",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-1-1-true",
+      "params": {
+        "q": "so",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-1-4-false",
+      "params": {
+        "q": "so",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-1-4-true",
+      "params": {
+        "q": "so",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-1-512-false",
+      "params": {
+        "q": "so",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-1-512-true",
+      "params": {
+        "q": "so",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-2-1-false",
+      "params": {
+        "q": "software",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-2-1-true",
+      "params": {
+        "q": "software",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-2-4-false",
+      "params": {
+        "q": "software",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-2-4-true",
+      "params": {
+        "q": "software",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-2-512-false",
+      "params": {
+        "q": "software",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-2-512-true",
+      "params": {
+        "q": "software",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-3-1-false",
+      "params": {
+        "q": "how",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-3-1-true",
+      "params": {
+        "q": "how",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-3-4-false",
+      "params": {
+        "q": "how",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-3-4-true",
+      "params": {
+        "q": "how",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-3-512-false",
+      "params": {
+        "q": "how",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-3-512-true",
+      "params": {
+        "q": "how",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-4-1-false",
+      "params": {
+        "q": "rocket",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-4-1-true",
+      "params": {
+        "q": "rocket",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-4-4-false",
+      "params": {
+        "q": "rocket",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-4-4-true",
+      "params": {
+        "q": "rocket",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-4-512-false",
+      "params": {
+        "q": "rocket",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-4-512-true",
+      "params": {
+        "q": "rocket",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-5-1-false",
+      "params": {
+        "q": "Google",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-5-1-true",
+      "params": {
+        "q": "Google",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-5-4-false",
+      "params": {
+        "q": "Google",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-5-4-true",
+      "params": {
+        "q": "Google",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-5-512-false",
+      "params": {
+        "q": "Google",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-5-512-true",
+      "params": {
+        "q": "Google",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-6-1-false",
+      "params": {
+        "q": "The",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-6-1-true",
+      "params": {
+        "q": "The",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-6-4-false",
+      "params": {
+        "q": "The",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-6-4-true",
+      "params": {
+        "q": "The",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-6-512-false",
+      "params": {
+        "q": "The",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-6-512-true",
+      "params": {
+        "q": "The",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-7-1-false",
+      "params": {
+        "q": "lost",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-7-1-true",
+      "params": {
+        "q": "lost",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-7-4-false",
+      "params": {
+        "q": "lost",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-7-4-true",
+      "params": {
+        "q": "lost",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-7-512-false",
+      "params": {
+        "q": "lost",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-7-512-true",
+      "params": {
+        "q": "lost",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-8-1-false",
+      "params": {
+        "q": "Ron",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-8-1-true",
+      "params": {
+        "q": "Ron",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-8-4-false",
+      "params": {
+        "q": "Ron",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-8-4-true",
+      "params": {
+        "q": "Ron",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-8-512-false",
+      "params": {
+        "q": "Ron",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-8-512-true",
+      "params": {
+        "q": "Ron",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-9-1-false",
+      "params": {
+        "q": "making",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-9-1-true",
+      "params": {
+        "q": "making",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-9-4-false",
+      "params": {
+        "q": "making",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-9-4-true",
+      "params": {
+        "q": "making",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-9-512-false",
+      "params": {
+        "q": "making",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-9-512-true",
+      "params": {
+        "q": "making",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-10-1-false",
+      "params": {
+        "q": "\"The Lost Movie\"",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-10-1-true",
+      "params": {
+        "q": "\"The Lost Movie\"",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-10-4-false",
+      "params": {
+        "q": "\"The Lost Movie\"",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-10-4-true",
+      "params": {
+        "q": "\"The Lost Movie\"",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-10-512-false",
+      "params": {
+        "q": "\"The Lost Movie\"",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-10-512-true",
+      "params": {
+        "q": "\"The Lost Movie\"",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "filter_by": "points:>=20"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-11-1-false",
+      "params": {
+        "q": "shool",
+        "query_by": "title",
+        "num_typos": 1,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-11-1-true",
+      "params": {
+        "q": "shool",
+        "query_by": "title",
+        "num_typos": 1,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-11-4-false",
+      "params": {
+        "q": "shool",
+        "query_by": "title",
+        "num_typos": 1,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-11-4-true",
+      "params": {
+        "q": "shool",
+        "query_by": "title",
+        "num_typos": 1,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-11-512-false",
+      "params": {
+        "q": "shool",
+        "query_by": "title",
+        "num_typos": 1,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-11-512-true",
+      "params": {
+        "q": "shool",
+        "query_by": "title",
+        "num_typos": 1,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true",
+        "facet_by": "family"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-12-1-false",
+      "params": {
+        "q": "*",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-12-1-true",
+      "params": {
+        "q": "*",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 1,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-12-4-false",
+      "params": {
+        "q": "*",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-12-4-true",
+      "params": {
+        "q": "*",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 4,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-12-512-false",
+      "params": {
+        "q": "*",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "false"
+      },
+      "oracle": false
+    },
+    {
+      "id": "example-12-512-true",
+      "params": {
+        "q": "*",
+        "query_by": "title",
+        "num_typos": 0,
+        "prefix": "true",
+        "use_cache": "false",
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "max_candidates": 512,
+        "sort_by": "rank:desc",
+        "per_page": 30,
+        "search_cutoff_ms": 5000,
+        "enable_lazy_filter": "true"
+      },
+      "oracle": false
+    }
+  ],
+  "warmup": 1,
+  "repeats": 3,
+  "load_model": "serial closed loop; client and server share host; not a capacity measurement"
+}

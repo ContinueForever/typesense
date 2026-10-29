@@ -1,0 +1,291 @@
+[
+  {
+    "query_id": "unfiltered-full",
+    "params": {
+      "q": "918",
+      "query_by": "code",
+      "prefix": "true",
+      "num_typos": 0,
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "use_cache": "false",
+      "max_candidates": 1,
+      "sort_by": "_text_match:desc,score:desc",
+      "per_page": 10,
+      "search_cutoff_ms": 5000
+    },
+    "started_at_utc": "2026-10-29T02:23:22.794594+00:00",
+    "status": 200,
+    "outcome": "success",
+    "engine_ms": 0,
+    "response": {
+      "facet_counts": [],
+      "found": 1,
+      "hits": [
+        {
+          "document": {
+            "code": "918000000254c",
+            "id": "000000254c",
+            "score": 1,
+            "sibling": "c",
+            "tenant": "other"
+          },
+          "highlight": {
+            "code": {
+              "matched_tokens": [
+                "918"
+              ],
+              "snippet": "<mark>918</mark>000000254c"
+            }
+          },
+          "highlights": [
+            {
+              "field": "code",
+              "matched_tokens": [
+                "918"
+              ],
+              "snippet": "<mark>918</mark>000000254c"
+            }
+          ],
+          "text_match": 578730089005451385,
+          "text_match_info": {
+            "best_field_score": "1108074561537",
+            "best_field_weight": 15,
+            "fields_matched": 1,
+            "num_tokens_dropped": 0,
+            "score": "578730089005451385",
+            "tokens_matched": 1,
+            "typo_prefix_score": 1
+          }
+        }
+      ],
+      "out_of": 4096,
+      "page": 1,
+      "request_params": {
+        "collection_name": "deadline_benchmark",
+        "first_q": "918",
+        "per_page": 10,
+        "q": "918"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 0
+    },
+    "normalised": {
+      "found": 1,
+      "out_of": 4096,
+      "search_cutoff": false,
+      "facet_counts": [],
+      "hits": [
+        {
+          "id": "000000254c",
+          "text_match": 578730089005451385,
+          "text_match_info": {
+            "best_field_score": "1108074561537",
+            "best_field_weight": 15,
+            "fields_matched": 1,
+            "num_tokens_dropped": 0,
+            "score": "578730089005451385",
+            "tokens_matched": 1,
+            "typo_prefix_score": 1
+          }
+        }
+      ]
+    },
+    "elapsed_ms": 1.367157
+  },
+  {
+    "query_id": "target-full",
+    "params": {
+      "q": "918",
+      "query_by": "code",
+      "prefix": "true",
+      "num_typos": 0,
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "use_cache": "false",
+      "max_candidates": 1,
+      "sort_by": "_text_match:desc,score:desc",
+      "per_page": 10,
+      "search_cutoff_ms": 5000,
+      "filter_by": "tenant:=target"
+    },
+    "started_at_utc": "2026-10-29T02:23:22.795964+00:00",
+    "status": 200,
+    "outcome": "success",
+    "engine_ms": 1,
+    "response": {
+      "facet_counts": [],
+      "found": 1,
+      "hits": [
+        {
+          "document": {
+            "code": "918000000000c",
+            "id": "000000000c",
+            "score": 1,
+            "sibling": "c",
+            "tenant": "target"
+          },
+          "highlight": {
+            "code": {
+              "matched_tokens": [
+                "918"
+              ],
+              "snippet": "<mark>918</mark>000000000c"
+            }
+          },
+          "highlights": [
+            {
+              "field": "code",
+              "matched_tokens": [
+                "918"
+              ],
+              "snippet": "<mark>918</mark>000000000c"
+            }
+          ],
+          "text_match": 578730089005451385,
+          "text_match_info": {
+            "best_field_score": "1108074561537",
+            "best_field_weight": 15,
+            "fields_matched": 1,
+            "num_tokens_dropped": 0,
+            "score": "578730089005451385",
+            "tokens_matched": 1,
+            "typo_prefix_score": 1
+          }
+        }
+      ],
+      "out_of": 4096,
+      "page": 1,
+      "request_params": {
+        "collection_name": "deadline_benchmark",
+        "first_q": "918",
+        "per_page": 10,
+        "q": "918"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 1
+    },
+    "normalised": {
+      "found": 1,
+      "out_of": 4096,
+      "search_cutoff": false,
+      "facet_counts": [],
+      "hits": [
+        {
+          "id": "000000000c",
+          "text_match": 578730089005451385,
+          "text_match_info": {
+            "best_field_score": "1108074561537",
+            "best_field_weight": 15,
+            "fields_matched": 1,
+            "num_tokens_dropped": 0,
+            "score": "578730089005451385",
+            "tokens_matched": 1,
+            "typo_prefix_score": 1
+          }
+        }
+      ]
+    },
+    "elapsed_ms": 1.672982
+  },
+  {
+    "query_id": "exact",
+    "params": {
+      "q": "918000000000b",
+      "query_by": "code",
+      "prefix": "false",
+      "num_typos": 0,
+      "enable_synonyms": "false",
+      "split_join_tokens": "off",
+      "drop_tokens_threshold": 0,
+      "typo_tokens_threshold": 0,
+      "use_cache": "false",
+      "max_candidates": 1,
+      "sort_by": "_text_match:desc,score:desc",
+      "per_page": 10,
+      "search_cutoff_ms": 5000
+    },
+    "started_at_utc": "2026-10-29T02:23:22.797641+00:00",
+    "status": 200,
+    "outcome": "success",
+    "engine_ms": 0,
+    "response": {
+      "facet_counts": [],
+      "found": 1,
+      "hits": [
+        {
+          "document": {
+            "code": "918000000000b",
+            "id": "000000000b",
+            "score": 1,
+            "sibling": "b",
+            "tenant": "target"
+          },
+          "highlight": {
+            "code": {
+              "matched_tokens": [
+                "918000000000b"
+              ],
+              "snippet": "<mark>918000000000b</mark>"
+            }
+          },
+          "highlights": [
+            {
+              "field": "code",
+              "matched_tokens": [
+                "918000000000b"
+              ],
+              "snippet": "<mark>918000000000b</mark>"
+            }
+          ],
+          "text_match": 578730123373578361,
+          "text_match_info": {
+            "best_field_score": "1108091342849",
+            "best_field_weight": 15,
+            "fields_matched": 1,
+            "num_tokens_dropped": 0,
+            "score": "578730123373578361",
+            "tokens_matched": 1,
+            "typo_prefix_score": 0
+          }
+        }
+      ],
+      "out_of": 4096,
+      "page": 1,
+      "request_params": {
+        "collection_name": "deadline_benchmark",
+        "first_q": "918000000000b",
+        "per_page": 10,
+        "q": "918000000000b"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 0
+    },
+    "normalised": {
+      "found": 1,
+      "out_of": 4096,
+      "search_cutoff": false,
+      "facet_counts": [],
+      "hits": [
+        {
+          "id": "000000000b",
+          "text_match": 578730123373578361,
+          "text_match_info": {
+            "best_field_score": "1108091342849",
+            "best_field_weight": 15,
+            "fields_matched": 1,
+            "num_tokens_dropped": 0,
+            "score": "578730123373578361",
+            "tokens_matched": 1,
+            "typo_prefix_score": 0
+          }
+        }
+      ]
+    },
+    "elapsed_ms": 0.666572
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "unfiltered-full": {
+    "found": 1,
+    "out_of": 4096,
+    "search_cutoff": false,
+    "facet_counts": [],
+    "hits": [
+      {
+        "id": "000000254c",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      }
+    ]
+  },
+  "target-full": {
+    "found": 1,
+    "out_of": 4096,
+    "search_cutoff": false,
+    "facet_counts": [],
+    "hits": [
+      {
+        "id": "000000000c",
+        "text_match": 578730089005451385,
+        "text_match_info": {
+          "best_field_score": "1108074561537",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730089005451385",
+          "tokens_matched": 1,
+          "typo_prefix_score": 1
+        }
+      }
+    ]
+  },
+  "exact": {
+    "found": 1,
+    "out_of": 4096,
+    "search_cutoff": false,
+    "facet_counts": [],
+    "hits": [
+      {
+        "id": "000000000b",
+        "text_match": 578730123373578361,
+        "text_match_info": {
+          "best_field_score": "1108091342849",
+          "best_field_weight": 15,
+          "fields_matched": 1,
+          "num_tokens_dropped": 0,
+          "score": "578730123373578361",
+          "tokens_matched": 1,
+          "typo_prefix_score": 0
+        }
+      }
+    ]
+  }
+}

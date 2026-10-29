@@ -1,0 +1,23 @@
+{
+  "command": [
+    "taskset",
+    "--cpu-list",
+    "0,1",
+    "/home/hermes/typesense/retrieval-study/builds/v31-candidate-compat3-20261028/typesense-server",
+    "--data-dir",
+    "/home/hermes/typesense/retrieval-study/raw/alternating-protocol-smoke-20261029/01-B/server-data",
+    "--api-key",
+    "<ephemeral-key>",
+    "--api-address",
+    "127.0.0.1",
+    "--api-port",
+    "35719",
+    "--peering-address",
+    "127.0.0.1",
+    "--peering-port",
+    "46479",
+    "--thread-pool-size",
+    "2"
+  ],
+  "ownership": "Only this Popen child is terminated."
+}

@@ -1,0 +1,126 @@
+{
+  "recorded_at_utc": "2026-10-29T02:29:40.970693+00:00",
+  "source_commit": "5dbf03ca8d44845746562cf59487698eb73161b9",
+  "phase": "Extended local regression; upstream C++ build, controlled performance and resource probe pending",
+  "extended": {
+    "passed": true,
+    "pairs": 2166,
+    "ordinary_pairs": 2142,
+    "finite_budget_pairs": 24,
+    "seeds": [
+      {
+        "seed": 3130,
+        "passed": true,
+        "compared": 422,
+        "ordinary": 414,
+        "finite_budget_pairs": 8,
+        "differences": [],
+        "policy": "Full hit documents and normalised search semantics; explicit cutoff may return partial hits."
+      },
+      {
+        "seed": 42,
+        "passed": true,
+        "compared": 722,
+        "ordinary": 714,
+        "finite_budget_pairs": 8,
+        "differences": [],
+        "policy": "Full hit documents and normalised search semantics; explicit cutoff may return partial hits."
+      },
+      {
+        "seed": 8001,
+        "passed": true,
+        "compared": 1022,
+        "ordinary": 1014,
+        "finite_budget_pairs": 8,
+        "differences": [],
+        "policy": "Full hit documents and normalised search semantics; explicit cutoff may return partial hits."
+      }
+    ],
+    "oracle_checks_per_variant": 173
+  },
+  "mixed": {
+    "passed": true,
+    "operations_per_variant": 1232,
+    "stable_reads_checked_per_variant": 800,
+    "writes_per_variant": 240,
+    "finite_budget_requests_per_variant": 160,
+    "disconnect_probes_per_variant": 32,
+    "recovery_checks_per_variant": 3,
+    "limitations": "Concurrent mutable out_of counts and partial deadline hits may reflect different legal schedules. Disconnect does not prove backend cancellation. This run does not measure capacity."
+  },
+  "examples": {
+    "left_requests": 234,
+    "right_requests": 234,
+    "differences": [],
+    "passed": true
+  },
+  "negative_dense_budget": {
+    "recorded_at_utc": "2026-10-29T02:05:15.699353+00:00",
+    "producer_sha256": "ddf93a56dcf7057809aa8a8bae292395fcf0901138558982467c3e980156dd41",
+    "same_fixture": true,
+    "complete_queries": 422,
+    "ordinary_non_cutoff_pairs": 405,
+    "ordinary_differences": [],
+    "finite_pairs": 8,
+    "dense_ordinary_budget_exhaustions": [
+      {
+        "id": "lazy/initial/true/1/512",
+        "baseline_ms": 5524.137205,
+        "candidate_ms": 5280.414361
+      },
+      {
+        "id": "lazy/initial/true/3/512",
+        "baseline_ms": 5268.935826,
+        "candidate_ms": 5284.695913
+      },
+      {
+        "id": "lazy/initial/true/4/512",
+        "baseline_ms": 5276.75047,
+        "candidate_ms": 5316.971836
+      },
+      {
+        "id": "lazy/mutated/true/1/512",
+        "baseline_ms": 5311.87682,
+        "candidate_ms": 5263.814343
+      },
+      {
+        "id": "lazy/mutated/true/3/512",
+        "baseline_ms": 5221.501499,
+        "candidate_ms": 5277.630718
+      },
+      {
+        "id": "lazy/mutated/true/4/512",
+        "baseline_ms": 5199.24198,
+        "candidate_ms": 5231.891461
+      },
+      {
+        "id": "lazy/recovered/true/1/512",
+        "baseline_ms": 6201.378487,
+        "candidate_ms": 5409.546354
+      },
+      {
+        "id": "lazy/recovered/true/3/512",
+        "baseline_ms": 5227.609321,
+        "candidate_ms": 5239.027691
+      },
+      {
+        "id": "lazy/recovered/true/4/512",
+        "baseline_ms": 5252.633252,
+        "candidate_ms": 5092.808984
+      }
+    ],
+    "interpretation": "Both builds signal cutoff on the same dense numeric-lazy controls at 5000ms. These runs did not pass ordinary-completion validation. Retained as a negative result; not a patch speedup claim."
+  },
+  "tool_tests": 22,
+  "upstream_cpp": {
+    "state": "building",
+    "label": "v31-candidate-full-tests-20261029"
+  },
+  "performance": {
+    "state": "protocol_smoke_passed; controlled experiment not started"
+  },
+  "capacity_probe": {
+    "state": "prepared; not started"
+  },
+  "upstream_review": "not submitted"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "operations_per_variant": 1232,
+  "stable_reads_checked_per_variant": 800,
+  "writes_per_variant": 240,
+  "finite_budget_requests_per_variant": 160,
+  "disconnect_probes_per_variant": 32,
+  "recovery_checks_per_variant": 3,
+  "limitations": "Concurrent mutable out_of counts and partial deadline hits may reflect different legal schedules. Disconnect does not prove backend cancellation. This run does not measure capacity."
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://dl.typesense.org/ci/tyrec/tyrec-1-models.tar.gz",
+  "bytes": 170446112,
+  "sha256": "d06af2cbc90fe49073505386de9093653470eeb4f04abc9a7f04e469fd2ef4f9",
+  "files": [
+    {
+      "name": "item_model.onnx",
+      "size": 92024370
+    },
+    {
+      "name": "user_model.onnx",
+      "size": 92024370
+    },
+    {
+      "name": "recommendation_model.onnx",
+      "size": 264899
+    },
+    {
+      "name": "vocab.txt",
+      "size": 231508
+    },
+    {
+      "name": "prompts.json",
+      "size": 28
+    }
+  ],
+  "recorded_at_utc": "2026-10-29T02:01:09.593590+00:00",
+  "verification": "Hash records fetched upstream CI artifact; upstream provides no pinned checksum in this workflow."
+}

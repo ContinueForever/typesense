@@ -1,0 +1,860 @@
+{
+  "example-0-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.49499,
+    "min_ms": 0.451872,
+    "max_ms": 0.660034,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-0-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.447413,
+    "min_ms": 0.415095,
+    "max_ms": 1.050416,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-0-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.911131,
+    "min_ms": 0.824203,
+    "max_ms": 1.593905,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-0-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.700022,
+    "min_ms": 0.656748,
+    "max_ms": 0.752842,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-0-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.53776,
+    "min_ms": 1.519149,
+    "max_ms": 1.979607,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-0-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.560528,
+    "min_ms": 1.504615,
+    "max_ms": 1.787336,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-1-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.465077,
+    "min_ms": 0.456454,
+    "max_ms": 0.469613,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-1-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.496348,
+    "min_ms": 0.433574,
+    "max_ms": 0.594878,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-1-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.435906,
+    "min_ms": 0.423682,
+    "max_ms": 0.441732,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-1-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.434164,
+    "min_ms": 0.415351,
+    "max_ms": 0.488456,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-1-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.450707,
+    "min_ms": 0.405148,
+    "max_ms": 0.471791,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-1-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.438879,
+    "min_ms": 0.403793,
+    "max_ms": 0.465682,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-2-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.382241,
+    "min_ms": 0.376561,
+    "max_ms": 0.427333,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-2-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.373781,
+    "min_ms": 0.348044,
+    "max_ms": 0.387895,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-2-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.344411,
+    "min_ms": 0.339531,
+    "max_ms": 0.60547,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-2-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.435509,
+    "min_ms": 0.360895,
+    "max_ms": 0.491055,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-2-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.41387,
+    "min_ms": 0.360274,
+    "max_ms": 0.5291,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-2-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.349578,
+    "min_ms": 0.34396,
+    "max_ms": 0.498946,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-3-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.539065,
+    "min_ms": 0.524867,
+    "max_ms": 0.632394,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-3-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.549183,
+    "min_ms": 0.529898,
+    "max_ms": 0.680917,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-3-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.640521,
+    "min_ms": 0.519554,
+    "max_ms": 0.693695,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-3-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.639227,
+    "min_ms": 0.548807,
+    "max_ms": 0.662661,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-3-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.700894,
+    "min_ms": 0.697686,
+    "max_ms": 1.307422,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-3-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.724292,
+    "min_ms": 0.590366,
+    "max_ms": 0.865748,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-4-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.432825,
+    "min_ms": 0.430291,
+    "max_ms": 0.477622,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-4-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.406939,
+    "min_ms": 0.39966,
+    "max_ms": 0.478716,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-4-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.379706,
+    "min_ms": 0.365402,
+    "max_ms": 0.382503,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-4-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.376662,
+    "min_ms": 0.365467,
+    "max_ms": 0.389625,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-4-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.385769,
+    "min_ms": 0.359114,
+    "max_ms": 0.451234,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-4-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.385788,
+    "min_ms": 0.368518,
+    "max_ms": 0.392923,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-5-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.494043,
+    "min_ms": 0.471067,
+    "max_ms": 0.586224,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-5-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.589168,
+    "min_ms": 0.519365,
+    "max_ms": 0.669584,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-5-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.500499,
+    "min_ms": 0.469296,
+    "max_ms": 0.600394,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-5-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.568558,
+    "min_ms": 0.488778,
+    "max_ms": 0.610511,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-5-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.483927,
+    "min_ms": 0.480357,
+    "max_ms": 0.51495,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-5-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.467343,
+    "min_ms": 0.457821,
+    "max_ms": 0.511165,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-6-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.977388,
+    "min_ms": 0.961519,
+    "max_ms": 1.139034,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-6-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.179237,
+    "min_ms": 0.967416,
+    "max_ms": 1.184858,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-6-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.236882,
+    "min_ms": 1.133457,
+    "max_ms": 1.304296,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-6-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.222799,
+    "min_ms": 1.178003,
+    "max_ms": 1.330776,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-6-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.114281,
+    "min_ms": 1.063217,
+    "max_ms": 1.191828,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-6-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 1.285757,
+    "min_ms": 1.154926,
+    "max_ms": 1.502141,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-7-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.532871,
+    "min_ms": 0.466198,
+    "max_ms": 0.700112,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-7-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.512113,
+    "min_ms": 0.470646,
+    "max_ms": 0.623553,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-7-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.554113,
+    "min_ms": 0.42605,
+    "max_ms": 0.571849,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-7-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.550638,
+    "min_ms": 0.406202,
+    "max_ms": 0.949976,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-7-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.527375,
+    "min_ms": 0.392461,
+    "max_ms": 0.657983,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-7-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.518247,
+    "min_ms": 0.464452,
+    "max_ms": 0.630998,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-8-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.505795,
+    "min_ms": 0.459428,
+    "max_ms": 0.646588,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-8-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.601341,
+    "min_ms": 0.547088,
+    "max_ms": 0.808083,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-8-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.629737,
+    "min_ms": 0.539116,
+    "max_ms": 0.8057,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-8-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.665707,
+    "min_ms": 0.583165,
+    "max_ms": 0.837799,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-8-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.617549,
+    "min_ms": 0.608036,
+    "max_ms": 0.728952,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-8-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.628924,
+    "min_ms": 0.559285,
+    "max_ms": 0.839743,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-9-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.435809,
+    "min_ms": 0.399676,
+    "max_ms": 0.523108,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-9-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.447559,
+    "min_ms": 0.38393,
+    "max_ms": 0.537437,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-9-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.433923,
+    "min_ms": 0.392285,
+    "max_ms": 0.592519,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-9-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.455792,
+    "min_ms": 0.402311,
+    "max_ms": 0.497158,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-9-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.609838,
+    "min_ms": 0.383566,
+    "max_ms": 0.612192,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-9-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.439391,
+    "min_ms": 0.362759,
+    "max_ms": 0.541179,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-10-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.550063,
+    "min_ms": 0.484455,
+    "max_ms": 0.733656,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-10-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.491392,
+    "min_ms": 0.447623,
+    "max_ms": 0.701165,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-10-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.508351,
+    "min_ms": 0.478956,
+    "max_ms": 0.595941,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-10-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.468516,
+    "min_ms": 0.45707,
+    "max_ms": 0.615139,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-10-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.437902,
+    "min_ms": 0.417359,
+    "max_ms": 0.577556,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-10-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.444913,
+    "min_ms": 0.428163,
+    "max_ms": 0.451263,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-11-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.363172,
+    "min_ms": 0.355831,
+    "max_ms": 0.570697,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-11-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.382106,
+    "min_ms": 0.340524,
+    "max_ms": 0.410086,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-11-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.400563,
+    "min_ms": 0.394695,
+    "max_ms": 0.411126,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-11-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.468128,
+    "min_ms": 0.35981,
+    "max_ms": 1.413807,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-11-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.431807,
+    "min_ms": 0.341619,
+    "max_ms": 0.596704,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-11-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.376863,
+    "min_ms": 0.374236,
+    "max_ms": 0.444181,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-12-1-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.689657,
+    "min_ms": 0.671779,
+    "max_ms": 0.702824,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-12-1-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.858253,
+    "min_ms": 0.730024,
+    "max_ms": 0.88213,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-12-4-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.763014,
+    "min_ms": 0.672017,
+    "max_ms": 0.796186,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-12-4-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.806464,
+    "min_ms": 0.740052,
+    "max_ms": 0.835686,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-12-512-false": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.894049,
+    "min_ms": 0.740764,
+    "max_ms": 0.942253,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  },
+  "example-12-512-true": {
+    "attempted": 3,
+    "outcomes": {
+      "success": 3
+    },
+    "completed_samples": 3,
+    "median_ms": 0.811406,
+    "min_ms": 0.71179,
+    "max_ms": 0.811584,
+    "p99_note": "Not reported: fewer than 10000 successful samples; errors/cutoffs counted separately."
+  }
+}

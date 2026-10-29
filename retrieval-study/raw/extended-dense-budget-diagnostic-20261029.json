@@ -1,0 +1,57 @@
+{
+  "recorded_at_utc": "2026-10-29T02:05:15.699353+00:00",
+  "producer_sha256": "ddf93a56dcf7057809aa8a8bae292395fcf0901138558982467c3e980156dd41",
+  "same_fixture": true,
+  "complete_queries": 422,
+  "ordinary_non_cutoff_pairs": 405,
+  "ordinary_differences": [],
+  "finite_pairs": 8,
+  "dense_ordinary_budget_exhaustions": [
+    {
+      "id": "lazy/initial/true/1/512",
+      "baseline_ms": 5524.137205,
+      "candidate_ms": 5280.414361
+    },
+    {
+      "id": "lazy/initial/true/3/512",
+      "baseline_ms": 5268.935826,
+      "candidate_ms": 5284.695913
+    },
+    {
+      "id": "lazy/initial/true/4/512",
+      "baseline_ms": 5276.75047,
+      "candidate_ms": 5316.971836
+    },
+    {
+      "id": "lazy/mutated/true/1/512",
+      "baseline_ms": 5311.87682,
+      "candidate_ms": 5263.814343
+    },
+    {
+      "id": "lazy/mutated/true/3/512",
+      "baseline_ms": 5221.501499,
+      "candidate_ms": 5277.630718
+    },
+    {
+      "id": "lazy/mutated/true/4/512",
+      "baseline_ms": 5199.24198,
+      "candidate_ms": 5231.891461
+    },
+    {
+      "id": "lazy/recovered/true/1/512",
+      "baseline_ms": 6201.378487,
+      "candidate_ms": 5409.546354
+    },
+    {
+      "id": "lazy/recovered/true/3/512",
+      "baseline_ms": 5227.609321,
+      "candidate_ms": 5239.027691
+    },
+    {
+      "id": "lazy/recovered/true/4/512",
+      "baseline_ms": 5252.633252,
+      "candidate_ms": 5092.808984
+    }
+  ],
+  "interpretation": "Both builds signal cutoff on the same dense numeric-lazy controls at 5000ms. These runs did not pass ordinary-completion validation. Retained as a negative result; not a patch speedup claim."
+}

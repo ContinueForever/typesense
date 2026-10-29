@@ -1,0 +1,119 @@
+{
+  "config": {
+    "groups": 2048,
+    "samples_per_case": 3,
+    "order": "AB",
+    "warmup": 1,
+    "seed": 3130,
+    "writes_per_phase": 2
+  },
+  "binaries": {
+    "A": "61baba82bf5f5a50c919f5d65c71085cd9443781cd3757325cad35d0a3e42fa4",
+    "B": "e78c5d71ef6e84d1d264ebcc069e60040ef68556c0332484a210a7119fdea774"
+  },
+  "source": "5dbf03ca8d44845746562cf59487698eb73161b9",
+  "server_cpus": [
+    0,
+    1
+  ],
+  "client_cpu": 2,
+  "cases": [
+    {
+      "id": "unfiltered-short",
+      "params": {
+        "q": "918",
+        "query_by": "code",
+        "prefix": "true",
+        "num_typos": 0,
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "use_cache": "false",
+        "max_candidates": 1,
+        "sort_by": "_text_match:desc,score:desc",
+        "per_page": 10,
+        "search_cutoff_ms": 1
+      }
+    },
+    {
+      "id": "unfiltered-full",
+      "params": {
+        "q": "918",
+        "query_by": "code",
+        "prefix": "true",
+        "num_typos": 0,
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "use_cache": "false",
+        "max_candidates": 1,
+        "sort_by": "_text_match:desc,score:desc",
+        "per_page": 10,
+        "search_cutoff_ms": 5000
+      }
+    },
+    {
+      "id": "target-short",
+      "params": {
+        "q": "918",
+        "query_by": "code",
+        "prefix": "true",
+        "num_typos": 0,
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "use_cache": "false",
+        "max_candidates": 1,
+        "sort_by": "_text_match:desc,score:desc",
+        "per_page": 10,
+        "search_cutoff_ms": 1,
+        "filter_by": "tenant:=target"
+      }
+    },
+    {
+      "id": "target-full",
+      "params": {
+        "q": "918",
+        "query_by": "code",
+        "prefix": "true",
+        "num_typos": 0,
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "use_cache": "false",
+        "max_candidates": 1,
+        "sort_by": "_text_match:desc,score:desc",
+        "per_page": 10,
+        "search_cutoff_ms": 5000,
+        "filter_by": "tenant:=target"
+      }
+    },
+    {
+      "id": "exact",
+      "params": {
+        "q": "918000000000b",
+        "query_by": "code",
+        "prefix": "false",
+        "num_typos": 0,
+        "enable_synonyms": "false",
+        "split_join_tokens": "off",
+        "drop_tokens_threshold": 0,
+        "typo_tokens_threshold": 0,
+        "use_cache": "false",
+        "max_candidates": 1,
+        "sort_by": "_text_match:desc,score:desc",
+        "per_page": 10,
+        "search_cutoff_ms": 5000
+      }
+    }
+  ],
+  "producer_sha256": "5f198951d89b7a2632752681105a2544f7e717440cb3313f7a05a5dd28c85531",
+  "planned_measured_requests": 30,
+  "planned_write_requests": 12,
+  "model": "Serial closed loop; one client CPU and two server CPUs on the same desktop VM. Other host work is observed, not excluded.",
+  "exclusions": "No independent service capacity, production tail latency, physical CPU isolation or hard deadline guarantee."
+}

@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-29T02:11:06.214735+00:00",
+  "status": {
+    "VmHWM": "140140 kB",
+    "VmRSS": "121860 kB",
+    "VmSwap": "0 kB",
+    "Threads": "54"
+  },
+  "user_cpu_seconds": 27.72,
+  "system_cpu_seconds": 0.29
+}

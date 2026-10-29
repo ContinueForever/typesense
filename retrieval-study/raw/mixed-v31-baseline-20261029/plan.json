@@ -1,0 +1,1777 @@
+{
+  "config": {
+    "reads_per_worker": 200,
+    "read_workers": 4,
+    "writes": 240,
+    "flood": 160,
+    "disconnects": 32,
+    "groups": 32768
+  },
+  "writes": [
+    {
+      "kind": "delete",
+      "id": "w000"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w001",
+        "code": "91890000101",
+        "partition": "mutable",
+        "score": 10001
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w002",
+        "code": "91890000102",
+        "partition": "mutable",
+        "score": 10002
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w003"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w004",
+        "code": "91890000104",
+        "partition": "mutable",
+        "score": 10004
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w005",
+        "code": "91890000105",
+        "partition": "mutable",
+        "score": 10005
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w006"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w007",
+        "code": "91890000107",
+        "partition": "mutable",
+        "score": 10007
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w008",
+        "code": "91890000108",
+        "partition": "mutable",
+        "score": 10008
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w009"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w010",
+        "code": "91890000110",
+        "partition": "mutable",
+        "score": 10010
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w011",
+        "code": "91890000111",
+        "partition": "mutable",
+        "score": 10011
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w012"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w013",
+        "code": "91890000113",
+        "partition": "mutable",
+        "score": 10013
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w014",
+        "code": "91890000114",
+        "partition": "mutable",
+        "score": 10014
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w015"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w016",
+        "code": "91890000116",
+        "partition": "mutable",
+        "score": 10016
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w017",
+        "code": "91890000117",
+        "partition": "mutable",
+        "score": 10017
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w018"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w019",
+        "code": "91890000119",
+        "partition": "mutable",
+        "score": 10019
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w020",
+        "code": "91890000120",
+        "partition": "mutable",
+        "score": 10020
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w021"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w022",
+        "code": "91890000122",
+        "partition": "mutable",
+        "score": 10022
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w023",
+        "code": "91890000123",
+        "partition": "mutable",
+        "score": 10023
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w024"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w025",
+        "code": "91890000125",
+        "partition": "mutable",
+        "score": 10025
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w026",
+        "code": "91890000126",
+        "partition": "mutable",
+        "score": 10026
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w027"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w028",
+        "code": "91890000128",
+        "partition": "mutable",
+        "score": 10028
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w029",
+        "code": "91890000129",
+        "partition": "mutable",
+        "score": 10029
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w030"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w031",
+        "code": "91890000131",
+        "partition": "mutable",
+        "score": 10031
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w000",
+        "code": "91890000132",
+        "partition": "mutable",
+        "score": 10032
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w001"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w002",
+        "code": "91890000134",
+        "partition": "mutable",
+        "score": 10034
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w003",
+        "code": "91890000135",
+        "partition": "mutable",
+        "score": 10035
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w004"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w005",
+        "code": "91890000137",
+        "partition": "mutable",
+        "score": 10037
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w006",
+        "code": "91890000138",
+        "partition": "mutable",
+        "score": 10038
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w007"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w008",
+        "code": "91890000140",
+        "partition": "mutable",
+        "score": 10040
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w009",
+        "code": "91890000141",
+        "partition": "mutable",
+        "score": 10041
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w010"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w011",
+        "code": "91890000143",
+        "partition": "mutable",
+        "score": 10043
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w012",
+        "code": "91890000144",
+        "partition": "mutable",
+        "score": 10044
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w013"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w014",
+        "code": "91890000146",
+        "partition": "mutable",
+        "score": 10046
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w015",
+        "code": "91890000147",
+        "partition": "mutable",
+        "score": 10047
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w016"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w017",
+        "code": "91890000149",
+        "partition": "mutable",
+        "score": 10049
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w018",
+        "code": "91890000150",
+        "partition": "mutable",
+        "score": 10050
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w019"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w020",
+        "code": "91890000152",
+        "partition": "mutable",
+        "score": 10052
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w021",
+        "code": "91890000153",
+        "partition": "mutable",
+        "score": 10053
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w022"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w023",
+        "code": "91890000155",
+        "partition": "mutable",
+        "score": 10055
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w024",
+        "code": "91890000156",
+        "partition": "mutable",
+        "score": 10056
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w025"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w026",
+        "code": "91890000158",
+        "partition": "mutable",
+        "score": 10058
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w027",
+        "code": "91890000159",
+        "partition": "mutable",
+        "score": 10059
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w028"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w029",
+        "code": "91890000161",
+        "partition": "mutable",
+        "score": 10061
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w030",
+        "code": "91890000162",
+        "partition": "mutable",
+        "score": 10062
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w031"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w000",
+        "code": "91890000164",
+        "partition": "mutable",
+        "score": 10064
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w001",
+        "code": "91890000165",
+        "partition": "mutable",
+        "score": 10065
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w002"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w003",
+        "code": "91890000167",
+        "partition": "mutable",
+        "score": 10067
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w004",
+        "code": "91890000168",
+        "partition": "mutable",
+        "score": 10068
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w005"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w006",
+        "code": "91890000170",
+        "partition": "mutable",
+        "score": 10070
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w007",
+        "code": "91890000171",
+        "partition": "mutable",
+        "score": 10071
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w008"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w009",
+        "code": "91890000173",
+        "partition": "mutable",
+        "score": 10073
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w010",
+        "code": "91890000174",
+        "partition": "mutable",
+        "score": 10074
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w011"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w012",
+        "code": "91890000176",
+        "partition": "mutable",
+        "score": 10076
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w013",
+        "code": "91890000177",
+        "partition": "mutable",
+        "score": 10077
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w014"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w015",
+        "code": "91890000179",
+        "partition": "mutable",
+        "score": 10079
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w016",
+        "code": "91890000180",
+        "partition": "mutable",
+        "score": 10080
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w017"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w018",
+        "code": "91890000182",
+        "partition": "mutable",
+        "score": 10082
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w019",
+        "code": "91890000183",
+        "partition": "mutable",
+        "score": 10083
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w020"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w021",
+        "code": "91890000185",
+        "partition": "mutable",
+        "score": 10085
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w022",
+        "code": "91890000186",
+        "partition": "mutable",
+        "score": 10086
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w023"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w024",
+        "code": "91890000188",
+        "partition": "mutable",
+        "score": 10088
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w025",
+        "code": "91890000189",
+        "partition": "mutable",
+        "score": 10089
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w026"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w027",
+        "code": "91890000191",
+        "partition": "mutable",
+        "score": 10091
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w028",
+        "code": "91890000192",
+        "partition": "mutable",
+        "score": 10092
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w029"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w030",
+        "code": "91890000194",
+        "partition": "mutable",
+        "score": 10094
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w031",
+        "code": "91890000195",
+        "partition": "mutable",
+        "score": 10095
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w000"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w001",
+        "code": "91890000197",
+        "partition": "mutable",
+        "score": 10097
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w002",
+        "code": "91890000198",
+        "partition": "mutable",
+        "score": 10098
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w003"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w004",
+        "code": "91890000200",
+        "partition": "mutable",
+        "score": 10100
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w005",
+        "code": "91890000201",
+        "partition": "mutable",
+        "score": 10101
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w006"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w007",
+        "code": "91890000203",
+        "partition": "mutable",
+        "score": 10103
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w008",
+        "code": "91890000204",
+        "partition": "mutable",
+        "score": 10104
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w009"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w010",
+        "code": "91890000206",
+        "partition": "mutable",
+        "score": 10106
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w011",
+        "code": "91890000207",
+        "partition": "mutable",
+        "score": 10107
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w012"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w013",
+        "code": "91890000209",
+        "partition": "mutable",
+        "score": 10109
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w014",
+        "code": "91890000210",
+        "partition": "mutable",
+        "score": 10110
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w015"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w016",
+        "code": "91890000212",
+        "partition": "mutable",
+        "score": 10112
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w017",
+        "code": "91890000213",
+        "partition": "mutable",
+        "score": 10113
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w018"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w019",
+        "code": "91890000215",
+        "partition": "mutable",
+        "score": 10115
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w020",
+        "code": "91890000216",
+        "partition": "mutable",
+        "score": 10116
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w021"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w022",
+        "code": "91890000218",
+        "partition": "mutable",
+        "score": 10118
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w023",
+        "code": "91890000219",
+        "partition": "mutable",
+        "score": 10119
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w024"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w025",
+        "code": "91890000221",
+        "partition": "mutable",
+        "score": 10121
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w026",
+        "code": "91890000222",
+        "partition": "mutable",
+        "score": 10122
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w027"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w028",
+        "code": "91890000224",
+        "partition": "mutable",
+        "score": 10124
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w029",
+        "code": "91890000225",
+        "partition": "mutable",
+        "score": 10125
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w030"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w031",
+        "code": "91890000227",
+        "partition": "mutable",
+        "score": 10127
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w000",
+        "code": "91890000228",
+        "partition": "mutable",
+        "score": 10128
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w001"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w002",
+        "code": "91890000230",
+        "partition": "mutable",
+        "score": 10130
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w003",
+        "code": "91890000231",
+        "partition": "mutable",
+        "score": 10131
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w004"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w005",
+        "code": "91890000233",
+        "partition": "mutable",
+        "score": 10133
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w006",
+        "code": "91890000234",
+        "partition": "mutable",
+        "score": 10134
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w007"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w008",
+        "code": "91890000236",
+        "partition": "mutable",
+        "score": 10136
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w009",
+        "code": "91890000237",
+        "partition": "mutable",
+        "score": 10137
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w010"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w011",
+        "code": "91890000239",
+        "partition": "mutable",
+        "score": 10139
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w012",
+        "code": "91890000240",
+        "partition": "mutable",
+        "score": 10140
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w013"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w014",
+        "code": "91890000242",
+        "partition": "mutable",
+        "score": 10142
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w015",
+        "code": "91890000243",
+        "partition": "mutable",
+        "score": 10143
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w016"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w017",
+        "code": "91890000245",
+        "partition": "mutable",
+        "score": 10145
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w018",
+        "code": "91890000246",
+        "partition": "mutable",
+        "score": 10146
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w019"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w020",
+        "code": "91890000248",
+        "partition": "mutable",
+        "score": 10148
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w021",
+        "code": "91890000249",
+        "partition": "mutable",
+        "score": 10149
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w022"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w023",
+        "code": "91890000251",
+        "partition": "mutable",
+        "score": 10151
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w024",
+        "code": "91890000252",
+        "partition": "mutable",
+        "score": 10152
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w025"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w026",
+        "code": "91890000254",
+        "partition": "mutable",
+        "score": 10154
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w027",
+        "code": "91890000255",
+        "partition": "mutable",
+        "score": 10155
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w028"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w029",
+        "code": "91890000257",
+        "partition": "mutable",
+        "score": 10157
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w030",
+        "code": "91890000258",
+        "partition": "mutable",
+        "score": 10158
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w031"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w000",
+        "code": "91890000260",
+        "partition": "mutable",
+        "score": 10160
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w001",
+        "code": "91890000261",
+        "partition": "mutable",
+        "score": 10161
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w002"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w003",
+        "code": "91890000263",
+        "partition": "mutable",
+        "score": 10163
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w004",
+        "code": "91890000264",
+        "partition": "mutable",
+        "score": 10164
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w005"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w006",
+        "code": "91890000266",
+        "partition": "mutable",
+        "score": 10166
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w007",
+        "code": "91890000267",
+        "partition": "mutable",
+        "score": 10167
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w008"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w009",
+        "code": "91890000269",
+        "partition": "mutable",
+        "score": 10169
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w010",
+        "code": "91890000270",
+        "partition": "mutable",
+        "score": 10170
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w011"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w012",
+        "code": "91890000272",
+        "partition": "mutable",
+        "score": 10172
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w013",
+        "code": "91890000273",
+        "partition": "mutable",
+        "score": 10173
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w014"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w015",
+        "code": "91890000275",
+        "partition": "mutable",
+        "score": 10175
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w016",
+        "code": "91890000276",
+        "partition": "mutable",
+        "score": 10176
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w017"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w018",
+        "code": "91890000278",
+        "partition": "mutable",
+        "score": 10178
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w019",
+        "code": "91890000279",
+        "partition": "mutable",
+        "score": 10179
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w020"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w021",
+        "code": "91890000281",
+        "partition": "mutable",
+        "score": 10181
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w022",
+        "code": "91890000282",
+        "partition": "mutable",
+        "score": 10182
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w023"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w024",
+        "code": "91890000284",
+        "partition": "mutable",
+        "score": 10184
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w025",
+        "code": "91890000285",
+        "partition": "mutable",
+        "score": 10185
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w026"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w027",
+        "code": "91890000287",
+        "partition": "mutable",
+        "score": 10187
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w028",
+        "code": "91890000288",
+        "partition": "mutable",
+        "score": 10188
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w029"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w030",
+        "code": "91890000290",
+        "partition": "mutable",
+        "score": 10190
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w031",
+        "code": "91890000291",
+        "partition": "mutable",
+        "score": 10191
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w000"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w001",
+        "code": "91890000293",
+        "partition": "mutable",
+        "score": 10193
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w002",
+        "code": "91890000294",
+        "partition": "mutable",
+        "score": 10194
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w003"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w004",
+        "code": "91890000296",
+        "partition": "mutable",
+        "score": 10196
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w005",
+        "code": "91890000297",
+        "partition": "mutable",
+        "score": 10197
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w006"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w007",
+        "code": "91890000299",
+        "partition": "mutable",
+        "score": 10199
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w008",
+        "code": "91890000300",
+        "partition": "mutable",
+        "score": 10200
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w009"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w010",
+        "code": "91890000302",
+        "partition": "mutable",
+        "score": 10202
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w011",
+        "code": "91890000303",
+        "partition": "mutable",
+        "score": 10203
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w012"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w013",
+        "code": "91890000305",
+        "partition": "mutable",
+        "score": 10205
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w014",
+        "code": "91890000306",
+        "partition": "mutable",
+        "score": 10206
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w015"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w016",
+        "code": "91890000308",
+        "partition": "mutable",
+        "score": 10208
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w017",
+        "code": "91890000309",
+        "partition": "mutable",
+        "score": 10209
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w018"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w019",
+        "code": "91890000311",
+        "partition": "mutable",
+        "score": 10211
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w020",
+        "code": "91890000312",
+        "partition": "mutable",
+        "score": 10212
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w021"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w022",
+        "code": "91890000314",
+        "partition": "mutable",
+        "score": 10214
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w023",
+        "code": "91890000315",
+        "partition": "mutable",
+        "score": 10215
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w024"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w025",
+        "code": "91890000317",
+        "partition": "mutable",
+        "score": 10217
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w026",
+        "code": "91890000318",
+        "partition": "mutable",
+        "score": 10218
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w027"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w028",
+        "code": "91890000320",
+        "partition": "mutable",
+        "score": 10220
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w029",
+        "code": "91890000321",
+        "partition": "mutable",
+        "score": 10221
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w030"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w031",
+        "code": "91890000323",
+        "partition": "mutable",
+        "score": 10223
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w000",
+        "code": "91890000324",
+        "partition": "mutable",
+        "score": 10224
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w001"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w002",
+        "code": "91890000326",
+        "partition": "mutable",
+        "score": 10226
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w003",
+        "code": "91890000327",
+        "partition": "mutable",
+        "score": 10227
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w004"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w005",
+        "code": "91890000329",
+        "partition": "mutable",
+        "score": 10229
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w006",
+        "code": "91890000330",
+        "partition": "mutable",
+        "score": 10230
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w007"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w008",
+        "code": "91890000332",
+        "partition": "mutable",
+        "score": 10232
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w009",
+        "code": "91890000333",
+        "partition": "mutable",
+        "score": 10233
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w010"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w011",
+        "code": "91890000335",
+        "partition": "mutable",
+        "score": 10235
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w012",
+        "code": "91890000336",
+        "partition": "mutable",
+        "score": 10236
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "w013"
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w014",
+        "code": "91890000338",
+        "partition": "mutable",
+        "score": 10238
+      }
+    },
+    {
+      "kind": "upsert",
+      "document": {
+        "id": "w015",
+        "code": "91890000339",
+        "partition": "mutable",
+        "score": 10239
+      }
+    }
+  ],
+  "planned_operations": 1232,
+  "generator_sha256": "f3fa8c14c9c9f02cab2f76f6b52b08d338c15bec5d26e3bb6217c823f475c860",
+  "deadline_generator_sha256": "48a049c49943fd280b16631eae086bf9038d8588aea7cf73d2a9a093cff33206",
+  "model": "Concurrent closed-loop workers on one host. Not an arrival-rate or capacity benchmark.",
+  "disconnect_contract": "The client sends a complete request then closes its socket; backend cancellation is not assumed."
+}

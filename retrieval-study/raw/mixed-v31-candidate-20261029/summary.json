@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "failures": [],
+  "planned": 1232,
+  "recorded": 1232,
+  "issued": 1232,
+  "elapsed_seconds": 2.316932275,
+  "kinds": {
+    "read": 800,
+    "write": 240,
+    "deadline": 160,
+    "disconnect": 32
+  },
+  "final_digest": {
+    "count": 86,
+    "sha256_sum_mod_2_256": "5c8c6340dee889a4f7d68776a69f66644134cb0762eaf4357877d176d61061d7"
+  },
+  "deadline_digest": {
+    "count": 65536,
+    "sha256_sum_mod_2_256": "6f5d15abb3775c1c997365eb7c485fc3700f73125b3e01640a085f58a8d94633"
+  },
+  "recovery_requests": 3,
+  "scope": "Concurrent closed-loop workers on one host. Not an arrival-rate or capacity benchmark.",
+  "disconnect_contract": "The client sends a complete request then closes its socket; backend cancellation is not assumed."
+}

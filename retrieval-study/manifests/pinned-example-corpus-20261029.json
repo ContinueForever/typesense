@@ -1,0 +1,26 @@
+{
+  "dataset": "data/pinned-examples-20261029",
+  "sources": [
+    {
+      "path": "test/documents.jsonl",
+      "sha256": "475ed416c578c0dc55391fa2d77143c7fad04dc7091fdfd0e63b30f620c7145e",
+      "documents": 24
+    },
+    {
+      "path": "test/multi_field_documents.jsonl",
+      "sha256": "e8962e9e594b1dab7da2ecb1193de60c177882bbdf4b9a729b8b7bb8cce257d2",
+      "documents": 18
+    },
+    {
+      "path": "test/resources/hnstories.jsonl.gz",
+      "sha256": "06eaf579a1bdffe74660b04734066e489ccd04babf39848ba9ce75767a3aac04",
+      "documents": 14
+    }
+  ],
+  "documents": 56,
+  "queries": 78,
+  "source_commit": "5dbf03ca8d44845746562cf59487698eb73161b9",
+  "documents_sha256": "b1019618e2a81721ddba361079aa4b3e67ab80ae9688e4a1f5c1279d5c639a91",
+  "generator_sha256": "018a3b987bcbe3cc89b036400baba3fd37a961523059cc14886dc203cbdcc885",
+  "reproduction_verified": true
+}

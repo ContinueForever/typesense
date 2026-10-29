@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "failures": [],
+  "oracle_checks": 48,
+  "counts": {
+    "searches": 422
+  },
+  "export_digests": {
+    "lazy_initial": {
+      "count": 32768,
+      "sha256_sum_mod_2_256": "e295b88d2aedad60c067cf61b16a2fa90835c10bf6051b1cb21b415ef4545888"
+    },
+    "lazy_mutated": {
+      "count": 32765,
+      "sha256_sum_mod_2_256": "04c68849ecb3ecc28884c8910a99e1ebd703ac8959e92a11d786451654a43b7a"
+    },
+    "lazy_recovered": {
+      "count": 32766,
+      "sha256_sum_mod_2_256": "180d3bcf493b50d8a57dc4f0429bbcaf03390f039efd8647cb6ef2ad68ef7ccb"
+    },
+    "brands_final": {
+      "count": 16,
+      "sha256_sum_mod_2_256": "e95e3f111e638bd78b2417d4ec671de3c432a6a7f7b0e983cdf65589bb536029"
+    },
+    "join_final": {
+      "count": 384,
+      "sha256_sum_mod_2_256": "fd9ea49dec70a9ad10df2ac8eda8873077415d78f1d2ef2c9dcd2068cce605db"
+    },
+    "random_final": {
+      "count": 378,
+      "sha256_sum_mod_2_256": "4fb09c7d0288aae0a471025f4afba41b577b5a554ff959769a97b7c7a6204db3"
+    }
+  },
+  "trace_operations": 400
+}

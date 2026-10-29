@@ -1,0 +1,92 @@
+{
+  "before": {
+    "recorded_at_utc": "2026-10-29T02:08:24.154757+00:00",
+    "status": {
+      "VmHWM": "137452 kB",
+      "VmRSS": "137452 kB",
+      "VmSwap": "0 kB",
+      "Threads": "54"
+    },
+    "user_cpu_seconds": 2.84,
+    "system_cpu_seconds": 0.19
+  },
+  "after": {
+    "recorded_at_utc": "2026-10-29T02:08:26.471634+00:00",
+    "status": {
+      "VmHWM": "138788 kB",
+      "VmRSS": "132072 kB",
+      "VmSwap": "0 kB",
+      "Threads": "54"
+    },
+    "user_cpu_seconds": 5.74,
+    "system_cpu_seconds": 0.36
+  },
+  "idle": [
+    {
+      "recorded_at_utc": "2026-10-29T02:08:26.693412+00:00",
+      "status": {
+        "VmHWM": "138788 kB",
+        "VmRSS": "132076 kB",
+        "VmSwap": "0 kB",
+        "Threads": "54"
+      },
+      "user_cpu_seconds": 5.75,
+      "system_cpu_seconds": 0.36
+    },
+    {
+      "recorded_at_utc": "2026-10-29T02:08:26.893703+00:00",
+      "status": {
+        "VmHWM": "138788 kB",
+        "VmRSS": "132076 kB",
+        "VmSwap": "0 kB",
+        "Threads": "54"
+      },
+      "user_cpu_seconds": 5.75,
+      "system_cpu_seconds": 0.36
+    },
+    {
+      "recorded_at_utc": "2026-10-29T02:08:27.094095+00:00",
+      "status": {
+        "VmHWM": "138788 kB",
+        "VmRSS": "132076 kB",
+        "VmSwap": "0 kB",
+        "Threads": "54"
+      },
+      "user_cpu_seconds": 5.76,
+      "system_cpu_seconds": 0.36
+    },
+    {
+      "recorded_at_utc": "2026-10-29T02:08:27.295365+00:00",
+      "status": {
+        "VmHWM": "138788 kB",
+        "VmRSS": "132076 kB",
+        "VmSwap": "0 kB",
+        "Threads": "54"
+      },
+      "user_cpu_seconds": 5.76,
+      "system_cpu_seconds": 0.36
+    },
+    {
+      "recorded_at_utc": "2026-10-29T02:08:27.495676+00:00",
+      "status": {
+        "VmHWM": "138788 kB",
+        "VmRSS": "132076 kB",
+        "VmSwap": "0 kB",
+        "Threads": "54"
+      },
+      "user_cpu_seconds": 5.76,
+      "system_cpu_seconds": 0.36
+    },
+    {
+      "recorded_at_utc": "2026-10-29T02:08:27.695979+00:00",
+      "status": {
+        "VmHWM": "138788 kB",
+        "VmRSS": "121636 kB",
+        "VmSwap": "0 kB",
+        "Threads": "54"
+      },
+      "user_cpu_seconds": 5.76,
+      "system_cpu_seconds": 0.36
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "imported": 56,
+  "collection": {
+    "created_at": 1793239872,
+    "curation_sets": [],
+    "default_sorting_field": "rank",
+    "enable_nested_fields": false,
+    "fields": [
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "title",
+        "optional": false,
+        "sort": false,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "track_missing_values": false,
+        "truncate_len": 100,
+        "type": "string"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "points",
+        "optional": false,
+        "sort": true,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "track_missing_values": false,
+        "truncate_len": 100,
+        "type": "int32"
+      },
+      {
+        "facet": false,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "rank",
+        "optional": false,
+        "sort": true,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "track_missing_values": false,
+        "truncate_len": 100,
+        "type": "int64"
+      },
+      {
+        "facet": true,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "family",
+        "optional": false,
+        "sort": false,
+        "stem": false,
+        "stem_dictionary": "",
+        "store": true,
+        "track_missing_values": false,
+        "truncate_len": 100,
+        "type": "string"
+      }
+    ],
+    "name": "retrieval_study_6516ef0c46d3",
+    "num_documents": 56,
+    "symbols_to_index": [],
+    "synonym_sets": [],
+    "token_separators": []
+  },
+  "export_digest": {
+    "count": 56,
+    "sha256_sum_mod_2_256": "f32533f30b98e5121985bfc5d1aed154a65ee575dd17cf832513ca6bed980779"
+  },
+  "verified": true
+}

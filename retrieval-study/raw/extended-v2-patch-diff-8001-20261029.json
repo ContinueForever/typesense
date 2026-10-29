@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "compared": 1022,
+  "ordinary": 1014,
+  "finite_budget_pairs": 8,
+  "differences": [],
+  "policy": "Full hit documents and normalised search semantics; explicit cutoff may return partial hits."
+}
